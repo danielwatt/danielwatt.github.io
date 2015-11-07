@@ -4,8 +4,23 @@ html{
 	min-width:320px;
 }
 
-a:link, a:visited, a:hover, a:active {
+a{
+	text-decoration: none;
+	border-bottom: 1px solid rgba(44,62,80,0);
+	-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
+     -moz-transition: all 0.3s ease-out;  /* FF4+ */
+      -ms-transition: all 0.3s ease-out;  /* IE10 */
+       -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
+          transition: all 0.3s ease-out;
+}
+
+a:link, a:visited{
     text-decoration: none;
+
+}
+
+a:hover, a:active{
+	border-color: #2c3e50;
 }
 
 h1{
@@ -280,14 +295,18 @@ nav ul li ul li a:hover{
 
 .moreLinksStyle{
 	text-decoration: none;
-	font-size:18px;
 	color:#2c3e50;
+	font-size:18px;
 	border-bottom: 1px solid rgba(44,62,80,0);
 	-webkit-transition: all 0.3s ease-out;  /* Saf3.2+, Chrome */
      -moz-transition: all 0.3s ease-out;  /* FF4+ */
       -ms-transition: all 0.3s ease-out;  /* IE10 */
        -o-transition: all 0.3s ease-out;  /* Opera 10.5+ */
           transition: all 0.3s ease-out;
+}
+
+.moreLinksStyle:visited{
+	color:#2c3e50;
 }
 
 .moreLinksStyle:hover{
@@ -470,20 +489,19 @@ padding-bottom: 100px;
 	#footer{
 		font-size:14px;
 	}
-	.moreLinksStyle{
-		font-size:14px;
-	}
 	.hoverButtonLink{
 		width:140px;
 	}
 	#moreLinksContainer{
 		width:70%;
 	}
-	h3{
-		font-size:14px;
+
+	.moreLinksStyle{
+		font-size:15px;
 	}
-	p{
-		font-size:14px;
+
+	h3{
+		font-size:25px;
 	}
 	.contentDescription li{
 		font-size:14px;
@@ -523,6 +541,13 @@ padding-bottom: 100px;
 	}
 	.hoverButtonLink span:after {
 		margin-top:5px;
+	}
+	#contactContainer p{
+		font-size:13px;
+	}
+
+	#footer{
+		font-size: 10px;
 	}
 
 	
