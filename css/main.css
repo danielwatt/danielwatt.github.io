@@ -73,6 +73,10 @@ body {
 	font-family: 'Montserrat', sans-serif !important;
 }
 
+.navbar a{
+	border-bottom: none;
+}
+
 
 .navbar {
     > a:focus {
