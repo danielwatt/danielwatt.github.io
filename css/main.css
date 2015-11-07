@@ -75,7 +75,7 @@ body {
 .navbar-brand{
 	color:#000000 !important;
 	font-size: 25px;
-	letter-spacing: 3px;
+	letter-spacing: 0px;
 }
 
 .navbar-brand:hover, .navbar-brand:active{
@@ -453,6 +453,7 @@ padding-bottom: 100px;
 #footer{
 	background: #1463b4 ;
 	color: #FFFFFF;
+	font-size: 10px;
 
 }
 
