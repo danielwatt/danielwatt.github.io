@@ -53,6 +53,7 @@ body {
 }
 
 /*NAVBAR*/
+
 .navbar{
 	font-family: 'Montserrat', sans-serif !important;
 }
@@ -454,6 +455,33 @@ padding-bottom: 100px;
 	background: #1463b4 ;
 	color: #FFFFFF;
 	font-size: 10px;
+
+}
+
+@media only screen and (max-width: 480px) {
+	/*Reduce banner text and image sizes*/
+	#bannerName{
+		font-size:39px;
+	}
+	#bannerPhrase{
+		font-size:26px;
+	}
+	#bannerLogo{
+		width:30px;
+		height:30px;
+	}
+	#moreLinksContainer{
+		width:100%;
+	}
+
+	.hoverButtonLink{
+		font-size:16px;
+	}
+	.hoverButtonLink span:after {
+		margin-top:5px;
+	}
+
+	
 
 }
 
