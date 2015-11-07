@@ -1,0 +1,13 @@
+.aboutItem{
+	height: 100%;
+	padding: 0 10px;
+	background: gray;
+	display:block;
+}
+
+.container-fluid {
+    max-width: 1360px;
+    margin:100px auto 0 auto;
+    width: 92%;
+    position: relative;
+}
