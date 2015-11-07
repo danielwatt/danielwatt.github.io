@@ -1,6 +1,5 @@
 $(function() {
-	var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
-	if (!isMobile){
+	if ($(window).width() > 769){
 		$(window).scroll(function() {
 			var fraction = $(window).scrollTop()/($("#aboutContainer").offset().top-200);
 			var theta =  fraction*2*Math.PI;
