@@ -1,7 +1,6 @@
 html{
 	height:100%;
 	background-color:#000000;
-	
 	min-width:320px;
 }
 
@@ -29,15 +28,19 @@ h3{
 	padding-top:10px;
 }
 
-h4{
+h4 {
 	color: #000000;
 	font-size:22px;
 	margin-bottom: 2px;
 
 }
 
+.notFirst{
+	padding-top: 22px;
+}
+
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	height:100%;
 	margin:0;
 	padding:0;
@@ -238,7 +241,6 @@ nav ul li ul li a:hover{
 #bannerName{
 	font-size:66px;
 	color:#FFFFFF;
-	font-family: 'Raleway', sans-serif;
 	margin-bottom: 0;
 
 }
@@ -246,7 +248,6 @@ nav ul li ul li a:hover{
 #bannerPhrase{
 	font-size:24px;
 	color:#FFFFFF;
-	font-family: 'Raleway', sans-serif; 
 }
 
 #bannerBlock{
@@ -299,7 +300,6 @@ nav ul li ul li a:hover{
 }
 
 .hoverButtonLink{
-	font-family: 'Raleway', sans-serif;
 	display:inline-block;
 	font-size:18px;
 	color: #FFFFFF;
@@ -352,7 +352,6 @@ nav ul li ul li a:hover{
 	min-height: 100%;
 	margin: 0 auto;
 	padding: 40px 0px 0px 0px;
-	font-family: 'Raleway', sans-serif;
 }
 
  .profilePicture {
@@ -363,6 +362,10 @@ nav ul li ul li a:hover{
     position: relative;
     overflow: hidden;
     display: block;
+}
+
+.container{
+	font-family: 'Roboto', sans-serif!important;
 }
 
 .aboutItem{
@@ -386,7 +389,6 @@ padding-bottom: 100px;
 	min-height: 80%;
 	margin: 0 auto;
 	padding: 40px 0px 0px 0px;
-	font-family: 'Raleway', sans-serif;
 }
 
 
