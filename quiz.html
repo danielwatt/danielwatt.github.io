@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 id="question">"Nothing"</h1>
+
+<script>
+var questionData;
+var oReq = new XMLHttpRequest();
+oReq.onload = reqListener;
+oReq.open("get", "question.json", true);
+oReq.send();
+
+function reqListener(e) {
+    questionData = JSON.parse(this.responseText);
+    document.getElementById("question").innerHTML =
+	questionData[1].Q;
+}
+
+</script>
+
+</body>
+</html>
+
