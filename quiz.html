@@ -32,7 +32,7 @@ button:hover {
 <button id="button3" onclick="answerSelected(3)">null3</button>
 </p>
 
-<p id="result"></p>
+<h2 id="result"></h2>
 <p>
 <img id="trump" src="http://www.hellenism.net/images/greek-gods.jpg" height="467" width="700">
 </p>
@@ -66,7 +66,7 @@ function answerSelected(ans){
 		winAudio.play();
 		image.src = "quizfiles/trumppics/good1.jpg";
 	} else{
-		document.getElementById("result").innerHTML = "Prev Question: " + prevQuestion + "\n" + "Answer was: " + prevCorrectAnswer;
+		document.getElementById("result").innerHTML = "<p><b>Prev Question:</b> " + prevQuestion + "</p>" + "<p><b>Answer was:</b> " + prevCorrectAnswer + "</p>"; 
 		loseAudio.play();
 		var randAud = Math.floor(Math.random()*3)+1;
 		// loseAudio.src('quizfiles/trumpsounds/bad' + randAud + '.wav');
