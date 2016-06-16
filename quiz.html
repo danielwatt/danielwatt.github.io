@@ -40,12 +40,15 @@ button:hover {
 var answer;
 
 nextQuestion();
-
+var winAudio = new Audio('trumppics/good.wav');
 function answerSelected(ans){
 	console.log ( "answer selected" );
 	var image = document.getElementById('trump');
+
 	if (ans == answer){
 		document.getElementById("result").innerHTML = "CORRECT"
+		winAudio.currentTime = 0;
+		winAudio.play();
 		image.src = "trumppics/good1.jpg";
 	} else{
 		document.getElementById("result").innerHTML = "INCORRECT"
