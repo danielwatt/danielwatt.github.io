@@ -76,7 +76,7 @@ function answerSelected(ans){
 }
 
 function nextQuestion(){
-	document.getElementById("result").innerHTML = "Question: ".concat(str(questionsAnswered+1).concat("/40"));
+	document.getElementById("result").innerHTML = "Question: ".concat(questionsAnswered+1.concat("/40"));
 	if (questionsAnswered >= totalSize){
 		completedQuiz();
 		return;
