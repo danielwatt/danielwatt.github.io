@@ -40,7 +40,8 @@ button:hover {
 var answer;
 
 nextQuestion();
-var winAudio = new Audio('trumppics/good.wav');
+var winAudio = new Audio('quiz/trumpsounds/good.wav');
+var loseAudio = new Audio('quiz/trumpsounds/bad1.wav');
 function answerSelected(ans){
 	console.log ( "answer selected" );
 	var image = document.getElementById('trump');
@@ -49,10 +50,14 @@ function answerSelected(ans){
 		document.getElementById("result").innerHTML = "CORRECT"
 		winAudio.currentTime = 0;
 		winAudio.play();
-		image.src = "trumppics/good1.jpg";
+		image.src = "quiz/trumppics/good1.jpg";
 	} else{
 		document.getElementById("result").innerHTML = "INCORRECT"
-		image.src = "trumppics/bad1.jpg";
+		winAudio.currentTime = 0;
+		winAudio.play();
+		var randAud = Math.floor(Math.random()*3)+1;
+		winAudio.src('quiz/trumpsounds/bad' + randAud + '.wav');
+		image.src = "quiz/trumppics/bad1.jpg";
 	}
 	nextQuestion()
 }
