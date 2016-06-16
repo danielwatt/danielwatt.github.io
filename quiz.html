@@ -32,7 +32,7 @@ button:hover {
 <button id="button3" onclick="answerSelected(3)">null3</button>
 </p>
 
-<h2 id="result"></h2>
+<p id="result"></p>
 <p>
 <img id="trump" src="http://www.hellenism.net/images/greek-gods.jpg" height="467" width="700">
 </p>
@@ -91,6 +91,7 @@ function nextQuestion(){
 
     // Randomizing answers
 	var arr = [0,0,0,0];
+	prevCorrectAnswer = questionData[rand].A[questionData[rand].A[4]];
 	for (i = 0 ; i<4; i++){
 
 		var randAnswer = Math.floor(Math.random()*4);
@@ -105,7 +106,6 @@ function nextQuestion(){
 
 		if (questionData[rand].A[4] == i){
 			answer = randAnswer;
-			prevCorrectAnswer = questionData[rand].A[i];
 		} 
 	}
 }
