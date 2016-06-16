@@ -43,6 +43,8 @@ var loseAudio = new Audio('quizfiles/trumpsounds/bad1.wav');
 var questionData;
 var questionArray;
 var totalSize;
+var correctAnswer = "";
+var numOfCorrect = 0;
 var questionsAnswered = 0;
 
 initialize();
@@ -58,15 +60,12 @@ function answerSelected(ans){
 	var image = document.getElementById('trump');
 	questionsAnswered++;
 	if (ans == answer){
+		numOfCorrect++;
 		document.getElementById("result").innerHTML = "CORRECT"
-		loseAudio.currentTime =0;
-		winAudio.currentTime = 0;
 		winAudio.play();
 		image.src = "quizfiles/trumppics/good1.jpg";
 	} else{
-		document.getElementById("result").innerHTML = "INCORRECT"
-		winAudio.currentTime = 0;
-		loseAudio.currentTime = 0;
+		document.getElementById("result").innerHTML = "Answer was: " + 
 		loseAudio.play();
 		var randAud = Math.floor(Math.random()*3)+1;
 		// loseAudio.src('quizfiles/trumpsounds/bad' + randAud + '.wav');
@@ -76,7 +75,7 @@ function answerSelected(ans){
 }
 
 function nextQuestion(){
-	document.getElementById("total").innerHTML = "Question: " + (questionsAnswered+1) + "/40";
+	document.getElementById("total").innerHTML = "Question: " + (questionsAnswered+1) + "/" + totalSize;
 	if (questionsAnswered >= totalSize){
 		completedQuiz();
 		return;
@@ -104,6 +103,7 @@ function nextQuestion(){
 
 		if (questionData[rand].A[4] == i){
 			answer = randAnswer;
+			correctAnswer = questionData[rand].A[answer];
 		} 
 	}
 }
