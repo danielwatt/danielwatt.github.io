@@ -8,9 +8,7 @@
 <button onclick="nextQuestion()">Next</button>
 
 <script>
-function nextQuestion()
-{
-var questionData;
+function nextQuestion(){
 var oReq = new XMLHttpRequest();
 oReq.onload = reqListener;
 oReq.open("get", "question.json", true);
@@ -18,6 +16,7 @@ oReq.send();
 }
 
 function reqListener(e) {
+	var questionData;
     questionData = JSON.parse(this.responseText);
     Object.keys(questionData).length()
     var x = Math.floor((Math.random() * questionData.size) + 1);
