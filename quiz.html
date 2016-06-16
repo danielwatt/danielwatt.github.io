@@ -6,16 +6,18 @@
 <h2 id="total"></h2>
 
 <script>
-var questionData;
+
 var oReq = new XMLHttpRequest();
 oReq.onload = reqListener;
 oReq.open("get", "question.json", true);
 oReq.send();
 
 function reqListener(e) {
+	var questionData;
     questionData = JSON.parse(this.responseText);
+    var rand = Math.floor(Math.random()*6)+1
     document.getElementById("question").innerHTML =
-	questionData[1].Q;
+	questionData[rand].Q;
 
 	document.getElementById("total").innerHTML = Object.keys(questionData).length
 }
