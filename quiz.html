@@ -59,7 +59,7 @@ function initialize(){
 function answerSelected(ans){
 	console.log ( "answer selected" );
 	var image = document.getElementById('trump');
-	console.log (questionAnswered);
+	console.log (questionsAnswered);
 	questionsAnswered++;
 	if (ans == answer){
 		document.getElementById("result").innerHTML = "CORRECT"
@@ -80,7 +80,7 @@ function answerSelected(ans){
 }
 
 function nextQuestion(){
-	if (quesitonsAnswered >= totalSize){
+	if (questionsAnswered >= totalSize){
 		document.getElementById("result").innerHTML = "Trump 4 president"
 	}
 	var rand = Math.floor(Math.random()*totalSize);
