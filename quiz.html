@@ -43,7 +43,8 @@ var loseAudio = new Audio('quizfiles/trumpsounds/bad1.wav');
 var questionData;
 var questionArray;
 var totalSize;
-var correctAnswer = "";
+var prevQuestion = "";
+var prevCorrectAnswer = "";
 var numOfCorrect = 0;
 var questionsAnswered = 0;
 
@@ -65,7 +66,7 @@ function answerSelected(ans){
 		winAudio.play();
 		image.src = "quizfiles/trumppics/good1.jpg";
 	} else{
-		document.getElementById("result").innerHTML = "Answer was: " + correctAnswer;
+		document.getElementById("result").innerHTML = "Prev Question: " + prevQuestion + "\n" + "Answer was: " + prevCorrectAnswer;
 		loseAudio.play();
 		var randAud = Math.floor(Math.random()*3)+1;
 		// loseAudio.src('quizfiles/trumpsounds/bad' + randAud + '.wav');
@@ -75,7 +76,7 @@ function answerSelected(ans){
 }
 
 function nextQuestion(){
-	document.getElementById("total").innerHTML = "Question: " + (questionsAnswered+1) + "/" + totalSize;
+	document.getElementById("total").innerHTML = (questionsAnswered+1) + "/" + totalSize;
 	if (questionsAnswered >= totalSize){
 		completedQuiz();
 		return;
@@ -85,6 +86,7 @@ function nextQuestion(){
 		rand = Math.floor(Math.random()*totalSize);
 	}
 	questionArray[rand] = true;
+	prevQuestion = questionData[rand].Q;
     document.getElementById("question").innerHTML = questionData[rand].Q;
 
     // Randomizing answers
@@ -103,7 +105,7 @@ function nextQuestion(){
 
 		if (questionData[rand].A[4] == i){
 			answer = randAnswer;
-			correctAnswer = questionData[rand].A[answer];
+			prevCorrectAnswer = questionData[rand].A[answer];
 		} 
 	}
 }
