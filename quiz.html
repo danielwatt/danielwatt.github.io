@@ -5,12 +5,18 @@
 <h2 id="question">Null</h2>
 <h2 id="total"></h2>
 
+<button onclick="nextQuestion()">Click me</button>
+
 <script>
 
-var oReq = new XMLHttpRequest();
-oReq.onload = reqListener;
-oReq.open("get", "question.json", true);
-oReq.send();
+nextQuestion();
+
+function nextQuestion(){
+	var oReq = new XMLHttpRequest();
+	oReq.onload = reqListener;
+	oReq.open("get", "question.json", true);
+	oReq.send();
+}
 
 function reqListener(e) {
 	var questionData;
