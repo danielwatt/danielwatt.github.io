@@ -62,17 +62,17 @@ function reqListener(e) {
     questionData = JSON.parse(this.responseText);
     var totalSize = Object.keys(questionData).length;
 
-    var rand = (Math.random()*totalSize);
-    document.getElementById("question").innerHTML = questionData[rand].Q;
+    var rand = Math.floor(Math.random()*totalSize);
+    document.getElementById("question").innerHTML = questionData[0].Q;
 
     // Randomizing answers
 	var arr = [0,0,0,0];
 	for (i = 0 ; i<3; i++){
 
-		var randAnswer = (Math.random()*4);
+		var randAnswer = Math.floor(Math.random()*4);
 
 		while (arr[randAnswer] == 1){
-			randAnswer = (Math.random()*4);
+			randAnswer = Math.floor(Math.random()*4);
 		}
 
 		arr[randAnswer] = 1;
