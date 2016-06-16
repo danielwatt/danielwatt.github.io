@@ -67,7 +67,7 @@ function reqListener(e) {
     var totalSize = Object.keys(questionData).length;
 
     var rand = Math.floor(Math.random()*totalSize);
-    document.getElementById("question").innerHTML = questionData[0].Q;
+    document.getElementById("question").innerHTML = questionData[rand].Q;
 
     console.log("YOLO");
 
