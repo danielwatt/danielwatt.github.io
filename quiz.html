@@ -2,7 +2,8 @@
 <html>
 <body>
 
-<h1 id="question">"Nothing"</h1>
+<h2 id="question">Null</h2>
+<h2 id="total"></h2>
 
 <script>
 var questionData;
@@ -15,6 +16,8 @@ function reqListener(e) {
     questionData = JSON.parse(this.responseText);
     document.getElementById("question").innerHTML =
 	questionData[1].Q;
+
+	document.getElementById("total").innerHTML = Object.keys(questionData).length
 }
 
 </script>
