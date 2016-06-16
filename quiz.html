@@ -21,7 +21,7 @@ button:hover {
 <body>
 
 <h2 id="question">Null</h2>
-<h2 id="total"></h2>
+<h4 id="total"></h4>
 <p>
 <button id="button0" onclick="answerSelected(0)">null0</button>
 </p><p>
@@ -32,7 +32,7 @@ button:hover {
 <button id="button3" onclick="answerSelected(3)">null3</button>
 </p>
 
-<h3 id="result"></h3>
+<h2 id="result"></h2>
 <p>
 <img id="trump" src="http://www.hellenism.net/images/greek-gods.jpg" height="467" width="700">
 </p>
@@ -76,7 +76,7 @@ function answerSelected(ans){
 }
 
 function nextQuestion(){
-	document.getElementById("result").innerHTML = "Question: " + (questionsAnswered+1) + "/40";
+	document.getElementById("total").innerHTML = "Question: " + (questionsAnswered+1) + "/40";
 	if (questionsAnswered >= totalSize){
 		completedQuiz();
 		return;
