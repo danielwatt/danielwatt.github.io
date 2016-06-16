@@ -38,14 +38,29 @@ button:hover {
 </p>
 <script>
 var answer;
-
-nextQuestion();
 var winAudio = new Audio('quizfiles/trumpsounds/good.wav');
 var loseAudio = new Audio('quizfiles/trumpsounds/bad1.wav');
+var questionData;
+var questionArray;
+var totalSize;
+var questionsAnswered = 0;
+
+initialize();
+
+nextQuestion();
+
+function initialize(){
+	var oReq = new XMLHttpRequest();
+	oReq.onload = reqListener;
+	oReq.open("get", "question.json", true);
+	oReq.send();
+}
+
 function answerSelected(ans){
 	console.log ( "answer selected" );
 	var image = document.getElementById('trump');
-
+	console.log (questionAnswered);
+	questionsAnswered++;
 	if (ans == answer){
 		document.getElementById("result").innerHTML = "CORRECT"
 		loseAudio.currentTime =0;
@@ -61,25 +76,19 @@ function answerSelected(ans){
 		// loseAudio.src('quizfiles/trumpsounds/bad' + randAud + '.wav');
 		image.src = "quizfiles/trumppics/bad1.jpg";
 	}
-	nextQuestion()
+	nextQuestion();
 }
 
 function nextQuestion(){
-	var oReq = new XMLHttpRequest();
-	oReq.onload = reqListener;
-	oReq.open("get", "question.json", true);
-	oReq.send();
-}
-
-function reqListener(e) {
-	var questionData;
-    questionData = JSON.parse(this.responseText);
-    var totalSize = Object.keys(questionData).length;
-
-    var rand = Math.floor(Math.random()*totalSize);
+	if (quesitonsAnswered >= totalSize){
+		document.getElementById("result").innerHTML = "Trump 4 president"
+	}
+	var rand = Math.floor(Math.random()*totalSize);
+	while (questionArray[rand] == true){
+		rand = Math.floor(Math.random()*totalSize);
+	}
+	questionArray[rand] = true;
     document.getElementById("question").innerHTML = questionData[rand].Q;
-
-    console.log("YOLO");
 
     // Randomizing answers
 	var arr = [0,0,0,0];
@@ -91,8 +100,6 @@ function reqListener(e) {
 			randAnswer = Math.floor(Math.random()*4);
 		}
 
-		console.log(i);
-
 		arr[randAnswer] = 1;
 
 		document.getElementById("button".concat(randAnswer)).innerHTML = questionData[rand].A[i];
@@ -101,8 +108,16 @@ function reqListener(e) {
 			answer = randAnswer;
 		} 
 	}
+}
 
-    
+function reqListener(e) {
+    questionData = JSON.parse(this.responseText);
+	totalSize = Object.keys(questionData).length;
+	questionArray = new Array(totalSize);
+	for (i = 0; i < totalSize; i++){
+		questionArray[i] = false;
+	}
+	nextQuestion();
 }
 
 </script>
