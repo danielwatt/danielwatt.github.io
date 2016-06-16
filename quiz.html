@@ -55,9 +55,7 @@ function initialize(){
 }
 
 function answerSelected(ans){
-	console.log ( "answer selected" );
 	var image = document.getElementById('trump');
-	console.log (questionsAnswered);
 	questionsAnswered++;
 	if (ans == answer){
 		document.getElementById("result").innerHTML = "CORRECT"
@@ -78,6 +76,7 @@ function answerSelected(ans){
 }
 
 function nextQuestion(){
+	document.getElementById("result").innerHTML = (answerSelected+1).concat("/40");
 	if (questionsAnswered >= totalSize){
 		completedQuiz();
 		return;
