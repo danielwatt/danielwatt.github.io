@@ -15,11 +15,11 @@ oReq.send();
 function reqListener(e) {
 	var questionData;
     questionData = JSON.parse(this.responseText);
-    var rand = Math.floor(Math.random()*6)+1
-    document.getElementById("question").innerHTML =
-	questionData[rand].Q;
+    var totalSize = Object.keys(questionData).length;
+    var rand = Math.floor(Math.random()*totalSize)+1
+    document.getElementById("question").innerHTML = questionData[rand].Q;
 
-	document.getElementById("total").innerHTML = Object.keys(questionData).length
+	document.getElementById("total").innerHTML = Object.keys(questionData).length;
 }
 
 </script>
