@@ -75,6 +75,8 @@ function reqListener(e) {
 			randAnswer = Math.floor(Math.random()*4);
 		}
 
+		console.log(i);
+
 		arr[randAnswer] = 1;
 
 		document.getElementById("button".concat(randAnswer)).innerHTML = questionData[rand].A[i];
