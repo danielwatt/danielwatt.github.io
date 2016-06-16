@@ -108,6 +108,14 @@ function nextQuestion(){
 		} 
 	}
 }
+function completedQuiz(){
+	document.getElementById("question").innerHTML = "Trump 4 president";
+	document.getElementById("result").innerHTML = "";
+	document.getElementById("button1").innerHTML = "";
+	document.getElementById("button2").innerHTML = "";
+	document.getElementById("button3").innerHTML = "";
+	document.getElementById("button0").innerHTML = "";
+}
 
 function reqListener(e) {
     questionData = JSON.parse(this.responseText);
