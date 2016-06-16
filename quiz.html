@@ -79,7 +79,7 @@ function answerSelected(ans){
 
 function nextQuestion(){
 	if (questionsAnswered >= totalSize){
-		document.getElementById("result").innerHTML = "Trump 4 president"
+		completedQuiz();
 		return;
 	}
 	var rand = Math.floor(Math.random()*totalSize);
