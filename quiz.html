@@ -2,26 +2,19 @@
 <html>
 <body>
 
-<h2 id="question">"Nothing"</h2>
-
-
-<button onclick="nextQuestion()">Next</button>
+<h1 id="question">"Nothing"</h1>
 
 <script>
-function nextQuestion(){
+var questionData;
 var oReq = new XMLHttpRequest();
 oReq.onload = reqListener;
 oReq.open("get", "question.json", true);
 oReq.send();
-}
 
 function reqListener(e) {
-	var questionData;
     questionData = JSON.parse(this.responseText);
-    Object.keys(questionData).length()
-    var x = Math.floor((Math.random() * questionData.size) + 1);
     document.getElementById("question").innerHTML =
-	questionData[x].Q;
+	questionData[1].Q;
 }
 
 </script>
