@@ -48,11 +48,13 @@ function answerSelected(ans){
 
 	if (ans == answer){
 		document.getElementById("result").innerHTML = "CORRECT"
+		loseAudio.currentTime =0;
 		winAudio.currentTime = 0;
 		winAudio.play();
 		image.src = "quizfiles/trumppics/good1.jpg";
 	} else{
 		document.getElementById("result").innerHTML = "INCORRECT"
+		winAudio.currentTime = 0;
 		loseAudio.currentTime = 0;
 		loseAudio.play();
 		var randAud = Math.floor(Math.random()*3)+1;
