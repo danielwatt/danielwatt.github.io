@@ -65,7 +65,7 @@ function answerSelected(ans){
 		winAudio.play();
 		image.src = "quizfiles/trumppics/good1.jpg";
 	} else{
-		document.getElementById("result").innerHTML = "Answer was: " + 
+		document.getElementById("result").innerHTML = "Answer was: " + correctAnswer;
 		loseAudio.play();
 		var randAud = Math.floor(Math.random()*3)+1;
 		// loseAudio.src('quizfiles/trumpsounds/bad' + randAud + '.wav');
