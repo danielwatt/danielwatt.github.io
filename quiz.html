@@ -33,7 +33,9 @@ button:hover {
 </p>
 
 <h1 id="result">?</h1>
-
+<p>
+<img id="trump" src="">
+</p>
 <script>
 var answer;
 
@@ -41,11 +43,13 @@ nextQuestion();
 
 function answerSelected(ans){
 	console.log ( "answer selected" );
-	console.log(answer);
+	var image = document.getElementById('trump');
 	if (ans == answer){
 		document.getElementById("result").innerHTML = "CORRECT"
+		image.src = "trumppics/good1.jpg";
 	} else{
 		document.getElementById("result").innerHTML = "INCORRECT"
+		image.src = "trumppics/good1.jpg";
 	}
 	nextQuestion()
 }
