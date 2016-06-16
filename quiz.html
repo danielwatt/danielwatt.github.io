@@ -32,7 +32,7 @@ button:hover {
 <button id="button3" onclick="answerSelected(3)">null3</button>
 </p>
 
-<p id="result"></p>
+<p id="result" size="15"></p>
 <p>
 <img id="trump" src="http://www.hellenism.net/images/greek-gods.jpg" height="467" width="700">
 </p>
@@ -62,7 +62,7 @@ function answerSelected(ans){
 	questionsAnswered++;
 	if (ans == answer){
 		numOfCorrect++;
-		document.getElementById("result").innerHTML = "CORRECT"
+		document.getElementById("result").innerHTML = "<b>CORRECT</b>"
 		winAudio.play();
 		image.src = "quizfiles/trumppics/good1.jpg";
 	} else{
