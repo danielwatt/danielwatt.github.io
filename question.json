@@ -1,11 +1,651 @@
 [
     {
-        "Q": "In a variant of the Adonis story, Adonis is put into a chest and given to whom?",
+        "Q": "Who was the first author to provide a systematic explanation of how the gods, the universe and humankind came into being?",
         "A": [
-            "Astarte",
+            "Pindar",
+            "Homer",
+            "Ovid",
+            "Hesiod",
+            3
+        ]
+    },
+    {
+        "Q": "What does the Greek word pythein mean?",
+        "A": [
+            "to rot",
+            "to die",
+            "to sing",
+            "to prophesy",
+            0
+        ]
+    },
+    {
+        "Q": "Who aided Apollo in his search for his cattle?",
+        "A": [
+            "Helius had seen the theft and told Apollo",
+            "An old man who was tending his vineyard told Apollo.",
+            "The cows bellowed and gave themselves away.",
+            "Hermes' mother knew what had happened and informed Apollo.",
+            1
+        ]
+    },
+    {
+        "Q": "What function does Artemis share with Eileithyia?",
+        "A": [
+            "She is a goddess of childbirth.",
+            "She is a goddess of the hunt.",
+            "She is a protectress of animals.",
+            "She is a goddess of marriage.",
+            0
+        ]
+    },
+    {
+        "Q": "Which Greek mythographer wrote Theogony and Works and Days?",
+        "A": [
+            "Hesiod",
+            "Herodotus",
+            "Homer",
+            "Hyginus",
+            0
+        ]
+    },
+    {
+        "Q": "Where is the most famous oracle of Zeus located?",
+        "A": [
+            "Dodona",
+            "Delphi",
+            "Delos",
+            "Doriscus",
+            0
+        ]
+    },
+    {
+        "Q": "What did Orpheus do that caused Eurydice to slip back into the underworld?",
+        "A": [
+            "He let go her hand",
+            "He tried to embrace her",
+            "He dropped his golden bough",
+            "He looked back on her as she followed",
+            3
+        ]
+    },
+    {
+        "Q": "What cures Orion's blindness?",
+        "A": [
+            "a salve",
+            "the waters of a sacred spring",
+            "the rays of the sun",
+            "the goddess Artemis",
+            2
+        ]
+    },
+    {
+        "Q": "What woman, loved by Apollo, was condemned to have a long life but not perpetual youth?",
+        "A": [
+            "Cassandra",
+            "Marpessa",
+            "Coronis",
+            "the Cumaean Sibyl",
+            3
+        ]
+    },
+    {
+        "Q": "What is the name of the phallic pillar that was used as a fertility symbol and to mark the boundary of property or a sacred area?",
+        "A": [
+            "Omphalos",
+            "Talaria",
+            "Herm",
+            "Sibyl",
+            2
+        ]
+    },
+    {
+        "Q": "Who was given the commission to spread the rites of Demeter?",
+        "A": [
+            "Triptolemus",
+            "Iambe",
+            "Celeus",
+            "Orpheus",
+            0
+        ]
+    },
+    {
+        "Q": "Which Greek deity more than any other was thought to dispense justice?",
+        "A": [
+            "Athena",
+            "Zeus",
+            "Apollo",
+            "Themis",
+            1
+        ]
+    },
+    {
+        "Q": "Who is Orpheus' father according to Ovid's account?",
+        "A": [
+            "Zeus",
+            "Dionysus",
+            "Hades",
+            "Apollo",
+            3
+        ]
+    },
+    {
+        "Q": "What part of the universe is Poseidon's realm?",
+        "A": [
+            "The sky",
+            "The sea",
+            "The underworld",
+            "The earth",
+            1
+        ]
+    },
+    {
+        "Q": "According to Aeschylus' Prometheus Bound, what does Hera do to punish Io for sleeping with Zeus?",
+        "A": [
+            "Turns her into a gadfly",
+            "Turns her into a swan",
+            "Turns her into a heifer",
+            "Turns her into a mare",
+            2
+        ]
+    },
+    {
+        "Q": "What hero most embodied the guile and cleverness of Athena?",
+        "A": [
+            "Achilles",
+            "Odysseus",
+            "Heracles",
+            "Sisyphus",
+            1
+        ]
+    },
+    {
+        "Q": "What is the fundamental premise of J.G. Frazer's approach to myth?",
+        "A": [
+            "Myth is to be understood more by its structure than by its specific details",
+            "Myth is ritual put in story form",
+            "Myth is a society's way of explaining and justifying its social customs and beliefs",
+            "Myth embodies the subconscious fears and aspirations of an individual",
+            1
+        ]
+    },
+    {
+        "Q": "What practice is Orpheus credited with originating among his people after his unsuccessful attempt to rescue his wife?",
+        "A": [
+            "singing to the lyre",
+            "celibate life",
+            "homosexuality",
+            "funeral rites",
+            2
+        ]
+    },
+    {
+        "Q": "After Pandora released the evils from the jar, what remained in the jar?",
+        "A": [
+            "Peace",
+            "Hope",
+            "Joy",
+            "Love",
+            1
+        ]
+    },
+    {
+        "Q": "What was the name of the drink with which Demeter broke her fast?",
+        "A": [
+            "the Hiera",
+            "the Kykeon",
+            "the Kiste",
+            "the Ananke",
+            1
+        ]
+    },
+    {
+        "Q": "In what form does Zeus seduce Europa, mother of Minos?",
+        "A": [
+            "A bull",
+            "A swan",
+            "A golden shower",
+            "A golden ram",
+            0
+        ]
+    },
+    {
+        "Q": "Why did Apollo and Artemis/Diana kill the children of Niobe?",
+        "A": [
+            "Niobe refused to sacrifice to them",
+            "Niobe boasted that she was more worthy of honor than Leto, their",
+            "Niobe profaned the sacred grove of Artemis by entering it while pregnant",
+            "Niobe refused to allow her children to participate in the rites of passage from childhood to adulthood overseen by these gods",
+            1
+        ]
+    },
+    {
+        "Q": "What name does Demeter use when she comes to Eleusis in disguise?",
+        "A": [
+            "Drymo",
+            "Callidice",
+            "Doso",
+            "Demo",
+            2
+        ]
+    },
+    {
+        "Q": "With whom does Athena share her function as a deity of war?",
+        "A": [
+            "Apollo",
+            "Hephaestus",
+            "Ares",
+            "Mercury",
+            2
+        ]
+    },
+    {
+        "Q": "With what aspect of Greek culture was the god Dionysus closely connected?",
+        "A": [
+            "Sculpture and painting",
+            "Drama",
+            "Writing",
+            "Medicine",
+            1
+        ]
+    },
+    {
+        "Q": "What does Hermes do as psychopompus?",
+        "A": [
+            "Kills the giant Argus",
+            "Speaks as herald of the gods, especially Zeus",
+            "Leads dead souls to Hades",
+            "Helps thieves evade capture",
+            2
+        ]
+    },
+    {
+        "Q": "What role does the prophet Tiresias play in Euripides' Bacchae?",
+        "A": [
+            "He tells King Pentheus that Dionysus is an imposter",
+            "He tells Agave to kill her own son",
+            "He joins with old King Cadmus in the Dionysian rites",
+            "He joins with King Pentheus in spying on the maenads",
+            2
+        ]
+    },
+    {
+        "Q": "What winged figure often attends Athena in art?",
+        "A": [
+            "Iris",
+            "Nike",
+            "Eos",
+            "Hermes",
+            1
+        ]
+    },
+    {
+        "Q": "What civilization had the most influence on the developing civilization of the Mycenaean Greeks?",
+        "A": [
+            "That of the Minoans",
+            "That of the Egyptians",
+            "That of the Romans",
+            "That of the Persians",
+            0
+        ]
+    },
+    {
+        "Q": "Who was the wife of the ruler of Eleusis?",
+        "A": [
+            "Callidice",
+            "Metaneira",
+            "Callitho\u00eb",
+            "Iolanthe",
+            1
+        ]
+    },
+    {
+        "Q": "Who became adept at the flute Athena created?",
+        "A": [
+            "Marsyas",
+            "Midas",
+            "Tmolus",
+            "Pallas",
+            0
+        ]
+    },
+    {
+        "Q": "Why did Zeus and the other gods create Pandora?",
+        "A": [
+            "As an experiment",
+            "As a reward",
+            "As a test",
+            "As a punishment",
+            3
+        ]
+    },
+    {
+        "Q": "What is the great virtue of Walter Burkert's approach to undertanding mythology?",
+        "A": [
+            "Its sensitivity to the historical context of the myths",
+            "Its recognition of the importance of the structure of the myths",
+            "Its understanding of the thematic similarities of myths across all cultures",
+            "Its inclusiveness in recognizing the value of various interpretative theories",
+            3
+        ]
+    },
+    {
+        "Q": "What happens to King Pentheus in Euripides' Bacchae?",
+        "A": [
+            "He is gored by a boar sent by Dionysus",
+            "He is turned into a stag and devoured by his own dogs",
+            "He is torn apart by his own mother",
+            "He is torn apart by the monstrous Titans",
+            2
+        ]
+    },
+    {
+        "Q": "Which of his divine offspring is most hateful to Zeus?",
+        "A": [
+            "Athena",
+            "Hermes",
+            "Ares",
+            "Apollo",
+            2
+        ]
+    },
+    {
+        "Q": "Who were the parents of Zeus and Hera?",
+        "A": [
+            "Uranus/Ouranos and Gaia",
+            "Iapetus and Clymene",
+            "Hyperion and Theia",
+            "Cronus and Rhea",
+            3
+        ]
+    },
+    {
+        "Q": "Which sister of Semele cared for the baby Dionysus?",
+        "A": [
+            "Autono\u00eb",
+            "Agave",
+            "Nysa",
+            "Ino",
+            3
+        ]
+    },
+    {
+        "Q": "Who is the goddess of the moon?",
+        "A": [
+            "Eos",
+            "Hyperia",
+            "Theia",
+            "Selene",
+            3
+        ]
+    },
+    {
+        "Q": "Which deity is most prominent in the Eleusinian mysteries?",
+        "A": [
+            "Dionysus",
+            "Orpheus",
+            "Demeter",
+            "Hephaestus",
+            2
+        ]
+    },
+    {
+        "Q": "Who was Adonis' father?",
+        "A": [
+            "His grandfather",
+            "His cousin",
+            "His brother",
+            "His uncle",
+            0
+        ]
+    },
+    {
+        "Q": "What vow did Orpheus make after his failure to rescue his wife Eurydice?",
+        "A": [
+            "That he would abandon the love of women for good",
+            "That he would abandon music until he was united with Eurydice in death",
+            "That he would never again sacrifice to the gods, especially Hades",
+            "That he would never again eat meat",
+            0
+        ]
+    },
+    {
+        "Q": "How do myths function according to the allegorical approach to mythology?",
+        "A": [
+            "They metaphorically explain aspect of human nature and other universal truths",
+            "They express the repressed subconscious desires of a human individual",
+            "They are the projection of unconscious tendencies and desires of the human race",
+            "They explain the causes or origins of items of culture or the natural world",
+            0
+        ]
+    },
+    {
+        "Q": "Which of the following are not Titans?",
+        "A": [
+            "Oceanus and Coeus",
+            "Selene and Helius",
+            "Phoebe and Mnemosyne",
+            "Theia and Iapetus",
+            1
+        ]
+    },
+    {
+        "Q": "Which of the gods is well-known as the adulterous lover of Aphrodite?",
+        "A": [
+            "Ares",
+            "Hephaestus",
+            "Apollo",
+            "Hermes",
+            0
+        ]
+    },
+    {
+        "Q": "Who arose from the foam created by the genitals of Uranus/Ouranos?",
+        "A": [
+            "Themis",
+            "Aphrodite",
+            "Metis",
+            "Pandora",
+            1
+        ]
+    },
+    {
+        "Q": "What finally made Demeter smile and begin to break her fast?",
+        "A": [
+            "She hadn't eaten in days and was hungry.",
+            "She saw the baby of the house.",
+            "The maidservant told jokes.",
+            "She thought it best to keep up her disguise.",
+            2
+        ]
+    },
+    {
+        "Q": "What is the basic meaning of the Greek word Chaos.",
+        "A": [
+            "Yawning void",
+            "Totality of nature",
+            "Crude and unformed mass of elements in strife",
+            "Fiery essence of light",
+            0
+        ]
+    },
+    {
+        "Q": "What does the Greek word 'mythos' mean?",
+        "A": [
+            "Story",
+            "Tradition",
+            "Falsehood",
+            "Truth",
+            0
+        ]
+    },
+    {
+        "Q": "Who assists at Athena's birth?",
+        "A": [
+            "Apollo",
+            "Hephaestus",
             "Hera",
-            "Persephone",
-            "Cybele",
+            "Artemis",
+            1
+        ]
+    },
+    {
+        "Q": "What is the correct sequence of historical periods of Greek history?",
+        "A": [
+            "Bronze Age, Dark Age, Archaic Period, Classical Period, Hellenistic Period",
+            "Bronze Age, Archaic Period, Dark Age, Classical Period, Hellenistic Period",
+            "Dark Age, Bronze Age, Archaic Period, Classical Period, Hellenistic Period",
+            "Bronze Age, Dark Age, Archaic Period, Hellenistic Period, Classical Period",
+            0
+        ]
+    },
+    {
+        "Q": "What was the subject of Hermes' first song?",
+        "A": [
+            "He sang of Prometheus and the theft of fire.",
+            "He sang of his own conception and birth.",
+            "He sang of Apollo and his oracle at Delphi.",
+            "He sang of the adulterous affair of Aphrodite and Ares.",
+            1
+        ]
+    },
+    {
+        "Q": "To which god was the famous Parthenon temple dedicated?",
+        "A": [
+            "Hestia",
+            "Athena",
+            "Artemis",
+            "Aphrodite",
+            1
+        ]
+    },
+    {
+        "Q": "What attitude did the philosopher Xenophanes have toward the traditional Greek myths?",
+        "A": [
+            "They were foolish because their idea of the gods was strictly anthropomorphic",
+            "They were corrupting because they presented the gods as immoral",
+            "They allegorically spoke of the realities of the natural world",
+            "They were more philosophical and serious than history",
+            0
+        ]
+    },
+    {
+        "Q": "In what form does Zeus seduce Danae, mother of Perseus?",
+        "A": [
+            "A bull",
+            "A swan",
+            "A golden shower",
+            "A golden ram",
+            2
+        ]
+    },
+    {
+        "Q": "Which deities could not be tamed by Aphrodite's power?",
+        "A": [
+            "Hestia, Athena and Artemis",
+            "Athena, Artemis and Ares",
+            "Apollo, Artemis and Ares",
+            "Hera, Athena and Artemis",
+            0
+        ]
+    },
+    {
+        "Q": "Which one of the Olympian gods did the ancient Greeks least highly regard?",
+        "A": [
+            "Poseidon",
+            "Athena",
+            "Ares",
+            "Apollo",
+            2
+        ]
+    },
+    {
+        "Q": "Which of the following is not true of Athena?",
+        "A": [
+            "She helped construct the first ship.",
+            "She is a goddess of the citadel.",
+            "She was originally male.",
+            "She was the first to bridle horses.",
+            2
+        ]
+    },
+    {
+        "Q": "What was it that originally made Zeus angry at humans?",
+        "A": [
+            "Prometheus created humans against the will of Zeus",
+            "Prometheus, in order to protect humans, warned Epimetheus not to receive any gift from Zeus",
+            "Prometheus stole fire from Zeus and gave it to humans",
+            "Prometheus tricked Zeus into accepting the poorer portion of a sacrifice, while humans received the better portion",
+            3
+        ]
+    },
+    {
+        "Q": "Near what mountain is Delphi situated?",
+        "A": [
+            "Aetna",
+            "Olympus",
+            "Ida",
+            "Parnassus",
+            3
+        ]
+    },
+    {
+        "Q": "The story of Demeter and Persephone is probably related to what Ancient Near Eastern story?",
+        "A": [
+            "Enuma Elish",
+            "Damu and Duttur",
+            "Ishtar and Innana",
+            "Gilgamesh",
+            1
+        ]
+    },
+    {
+        "Q": "The historical Trojan war which is reflected in later mythological accounts likely took place around what date?",
+        "A": [
+            "2000 BC",
+            "1200 BC",
+            "750 BC",
+            "500 BC",
+            1
+        ]
+    },
+    {
+        "Q": "Which of the following deities is a twin?",
+        "A": [
+            "Hera",
+            "Ares",
+            "Hephaestus",
+            "Artemis",
+            3
+        ]
+    },
+    {
+        "Q": "What goddesses does Hesiod invoke at the beginning of the Theogony?",
+        "A": [
+            "the Fates",
+            "the Graces",
+            "the Muses",
+            "the Sirens",
+            2
+        ]
+    },
+    {
+        "Q": "What happens when the goddess Demeter is without her daughter Persephone?",
+        "A": [
+            "The animals will not reproduce",
+            "The crops will not grow",
+            "The sun will not rise",
+            "The rain will not fall",
+            1
+        ]
+    },
+    {
+        "Q": "In the weaving contest between Athena and Arachne, what was the theme of Arachne's tapestry?",
+        "A": [
+            "The battle between the Olympian gods and the Giants",
+            "Mortals who were punished by the gods for challenging them",
+            "The less honourable amorous conquests of the gods",
+            "The Panathenaea festival",
             2
         ]
     },
@@ -30,13 +670,23 @@
         ]
     },
     {
-        "Q": "Who was the wife of the ruler of Eleusis?",
+        "Q": "Aeneas is the son of which deity?",
         "A": [
-            "Callidice",
-            "Metaneira",
-            "Callitho\u00eb",
-            "Iolanthe",
-            1
+            "Zeus",
+            "Apollo",
+            "Eos",
+            "Aphrodite",
+            3
+        ]
+    },
+    {
+        "Q": "Who was the first and most influential of the Greek authors of mythology?",
+        "A": [
+            "Herodotus",
+            "Aeschylus",
+            "Apollodorus",
+            "Homer",
+            3
         ]
     },
     {
@@ -46,16 +696,6 @@
             "Amphitrite",
             "Rhea",
             "Themis",
-            0
-        ]
-    },
-    {
-        "Q": "What function does Artemis share with Eileithyia?",
-        "A": [
-            "She is a goddess of childbirth.",
-            "She is a goddess of the hunt.",
-            "She is a protectress of animals.",
-            "She is a goddess of marriage.",
             0
         ]
     },
@@ -70,72 +710,12 @@
         ]
     },
     {
-        "Q": "Like the God of the book of Genesis, Zeus punishes mankind with a flood. Against whom his anger particularly aroused?",
-        "A": [
-            "Lycaon",
-            "Prometheus",
-            "Pyrrha",
-            "Deucalion",
-            0
-        ]
-    },
-    {
         "Q": "Who attended Aphrodite when she emerged from the waves?",
         "A": [
             "Eros and Desire",
             "the Graces and Beauty",
             "the Muses and Gaia",
             "Rhea and Cybele",
-            0
-        ]
-    },
-    {
-        "Q": "What cures Orion's blindness?",
-        "A": [
-            "a salve",
-            "the waters of a sacred spring",
-            "the rays of the sun",
-            "the goddess Artemis",
-            2
-        ]
-    },
-    {
-        "Q": "What woman, loved by Apollo, was condemned to have a long life but not perpetual youth?",
-        "A": [
-            "Cassandra",
-            "Marpessa",
-            "Coronis",
-            "the Cumaean Sibyl",
-            3
-        ]
-    },
-    {
-        "Q": "Who is the goddess of the moon?",
-        "A": [
-            "Eos",
-            "Hyperia",
-            "Theia",
-            "Selene",
-            3
-        ]
-    },
-    {
-        "Q": "In the Illiad, what does Hera borrow from Aphrodite to entice Zeus?",
-        "A": [
-            "her girdle",
-            "her headband",
-            "her ring",
-            "her peplos",
-            0
-        ]
-    },
-    {
-        "Q": "Who was given the commission to spread the rites of Demeter?",
-        "A": [
-            "Triptolemus",
-            "Iambe",
-            "Celeus",
-            "Orpheus",
             0
         ]
     },
@@ -150,42 +730,72 @@
         ]
     },
     {
-        "Q": "Which of the following are not Titans?",
+        "Q": "Who is the most fundamentally masculine of the goddesses?",
         "A": [
-            "Oceanus and Coeus",
-            "Selene and Helius",
-            "Phoebe and Mnemosyne",
-            "Theia and Iapetus",
-            1
+            "Hera",
+            "Artemis",
+            "Hecate",
+            "Athena",
+            3
         ]
     },
     {
-        "Q": "Who became adept at the flute Athena created?",
+        "Q": "Who was the mother of Apollo and Artemis?",
         "A": [
-            "Marsyas",
-            "Midas",
-            "Tmolus",
-            "Pallas",
-            0
-        ]
-    },
-    {
-        "Q": "What finally made Demeter smile and begin to break her fast?",
-        "A": [
-            "She hadn't eaten in days and was hungry.",
-            "She saw the baby of the house.",
-            "The maidservant told jokes.",
-            "She thought it best to keep up her disguise.",
+            "Hera",
+            "Aphrodite",
+            "Leto",
+            "Themis",
             2
         ]
     },
     {
-        "Q": "Who assists at Athena's birth?",
+        "Q": "What historical event marked the beginning of the Hellenistic Period?",
         "A": [
-            "Apollo",
-            "Hephaestus",
-            "Hera",
-            "Artemis",
+            "The Athenian defeat of the Persian invasion of King Xerxes",
+            "The death of Alexander the Great",
+            "The death of Cleopatra VII of Egypt",
+            "The Mycenaean conquest of Greece",
+            1
+        ]
+    },
+    {
+        "Q": "What does the meter in the name Demeter mean?",
+        "A": [
+            "Mother",
+            "Sister",
+            "Grain",
+            "Growth",
+            0
+        ]
+    },
+    {
+        "Q": "What ancient Greek author wrote 'philosophical' myths?",
+        "A": [
+            "Herodotus",
+            "Plato",
+            "Pindar",
+            "Aristotle",
+            1
+        ]
+    },
+    {
+        "Q": "When Athena is given the name \"Polias\", to what does this refer?",
+        "A": [
+            "Athena's role as protector of the city",
+            "Athena's childhood friend whom she accidentally killed",
+            "Athena's role as the goddess of domestic arts",
+            "Athena's glory as the slayer of an infamous giant",
+            0
+        ]
+    },
+    {
+        "Q": "According to Ovid, why is Bacchus upset at Orpheus' death?",
+        "A": [
+            "He was his son.",
+            "His sang of his mysteries.",
+            "He wanted to kill Orpheus himself.",
+            "He was a guest in his home when he died.",
             1
         ]
     },
@@ -196,46 +806,6 @@
             "virgin",
             "battle-ready",
             "statuesque",
-            1
-        ]
-    },
-    {
-        "Q": "Who is the mother of Asclepius?",
-        "A": [
-            "Coronis",
-            "Daphne",
-            "Marpessa",
-            "Cyrene",
-            0
-        ]
-    },
-    {
-        "Q": "What god or goddess witnessed the abduction of Persephone?",
-        "A": [
-            "Helius",
-            "Hera",
-            "Hermes",
-            "Athena",
-            0
-        ]
-    },
-    {
-        "Q": "What is the name of the attendants of Zeus who hid him as a child?",
-        "A": [
-            "the Kouroi",
-            "the Dictai",
-            "the Cyclopes",
-            "the Curetes",
-            3
-        ]
-    },
-    {
-        "Q": "What hero most embodied the guile and cleverness of Athena?",
-        "A": [
-            "Achilles",
-            "Odysseus",
-            "Heracles",
-            "Sisyphus",
             1
         ]
     },
@@ -260,13 +830,13 @@
         ]
     },
     {
-        "Q": "Who aided Apollo in his search for his cattle?",
+        "Q": "What part of the universe is Hades' realm?",
         "A": [
-            "Helius had seen the theft and told Apollo",
-            "An old man who was tending his vineyard told Apollo.",
-            "The cows bellowed and gave themselves away.",
-            "Hermes' mother knew what had happened and informed Apollo.",
-            1
+            "The sky",
+            "The sea",
+            "The underworld",
+            "The earth",
+            2
         ]
     },
     {
@@ -276,36 +846,6 @@
             "the creation of the world",
             "her contest with Poseidon",
             "the love of Zeus for Europa",
-            2
-        ]
-    },
-    {
-        "Q": "What was the name of the drink with which Demeter broke her fast?",
-        "A": [
-            "the Hiera",
-            "the Kykeon",
-            "the Kiste",
-            "the Ananke",
-            1
-        ]
-    },
-    {
-        "Q": "What does the term pytho\" mean?\"",
-        "A": [
-            "I destroy",
-            "I prophesy",
-            "I rot",
-            "I sing",
-            2
-        ]
-    },
-    {
-        "Q": "Which of the following is not true of Athena?",
-        "A": [
-            "She helped construct the first ship.",
-            "She is a goddess of the citadel.",
-            "She was originally male.",
-            "She was the first to bridle horses.",
             2
         ]
     },
@@ -320,52 +860,42 @@
         ]
     },
     {
-        "Q": "Near what mountain is Delphi situated?",
+        "Q": "Who is Eros the son of according to most ancient Greco-Roman accounts?",
         "A": [
-            "Aetna",
-            "Olympus",
-            "Ida",
-            "Parnassus",
-            3
-        ]
-    },
-    {
-        "Q": "What name does Demeter use when she comes to Eleusis in disguise?",
-        "A": [
-            "Drymo",
-            "Callidice",
-            "Doso",
-            "Demo",
+            "Hera",
+            "Hecate",
+            "Aphrodite",
+            "Themis",
             2
         ]
     },
     {
-        "Q": "With whom does Athena share her function as a deity of war?",
+        "Q": "What does the term pytho\" mean?\"",
         "A": [
-            "Apollo",
-            "Hephaestus",
-            "Ares",
-            "Mercury",
+            "I destroy",
+            "I prophesy",
+            "I rot",
+            "I sing",
             2
         ]
     },
     {
-        "Q": "What winged figure often attends Athena in art?",
+        "Q": "Who carries the caduceus?",
         "A": [
-            "Iris",
-            "Nike",
-            "Eos",
             "Hermes",
-            1
+            "Apollo",
+            "Asclepius",
+            "Zeus",
+            0
         ]
     },
     {
-        "Q": "What goddesses does Hesiod invoke at the beginning of the Theogony?",
+        "Q": "When did the time of the Roman Empire begin?",
         "A": [
-            "the Fates",
-            "the Graces",
-            "the Muses",
-            "the Sirens",
+            "500 BC",
+            "323 BC",
+            "27 BC",
+            "200 AD",
             2
         ]
     },
@@ -380,6 +910,336 @@
         ]
     },
     {
+        "Q": "What is the characteristic weapon of Poseidon?",
+        "A": [
+            "Trident",
+            "Thunderbolt",
+            "Club",
+            "Sword",
+            0
+        ]
+    },
+    {
+        "Q": "Who was on Zeus' side in the Titanomachy?",
+        "A": [
+            "The Olympian gods, the Cyclopes and the Hecatonchires",
+            "The Giants, the Cyclopes and the Hecatonchires",
+            "The Olympian gods, the Meliae and the Hecatonchires",
+            "The Hecatonchires, the Cyclopes and the Meliae",
+            0
+        ]
+    },
+    {
+        "Q": "How do myths function according to the etiological approach to mythology?",
+        "A": [
+            "They metaphorically explain aspect of human nature and other universal truths",
+            "They express the repressed subconscious desires of a human individual",
+            "They are the projection of unconscious tendencies and desires of the human race",
+            "They explain the causes or origins of items of culture or the natural world",
+            3
+        ]
+    },
+    {
+        "Q": "In a variant of the Adonis story, Adonis is put into a chest and given to whom?",
+        "A": [
+            "Astarte",
+            "Hera",
+            "Persephone",
+            "Cybele",
+            2
+        ]
+    },
+    {
+        "Q": "What is the mythological male counterpart of a maenad?",
+        "A": [
+            "a satyr",
+            "a centaur",
+            "a Cyclops",
+            "a Minotaur",
+            0
+        ]
+    },
+    {
+        "Q": "With what two gods was Orpheus most commonly connected?",
+        "A": [
+            "Dionysus and Apollo",
+            "Dionysus and Demeter",
+            "Oeagrus and Apollo",
+            "Hermes and Apollo",
+            0
+        ]
+    },
+    {
+        "Q": "Which mythographic work gives a detailed account of the establishment of Apollo's worship at both Delphi and Delos",
+        "A": [
+            "Homer's Iliad",
+            "Homer's Odyssey",
+            "The Homeric Hymn to Apollo",
+            "Hesiod's Theogony",
+            2
+        ]
+    },
+    {
+        "Q": "In what form does Dionysus appear to Pentheus as he attempts to bind him?",
+        "A": [
+            "a bull",
+            "a lion",
+            "a dolphin",
+            "a lynx",
+            0
+        ]
+    },
+    {
+        "Q": "Why did Cronus eat his children?",
+        "A": [
+            "He wanted to punish their mother",
+            "They were conspiring to overthrow his position as ruler of the universe",
+            "He was afraid one of them would usurp his position as ruler of the universe.",
+            "He was afraid they would reproduce to such an extent that they would destroy the earth",
+            2
+        ]
+    },
+    {
+        "Q": "Like the God of the book of Genesis, Zeus punishes mankind with a flood. Against whom his anger particularly aroused?",
+        "A": [
+            "Lycaon",
+            "Prometheus",
+            "Pyrrha",
+            "Deucalion",
+            0
+        ]
+    },
+    {
+        "Q": "What is the Greek name for the goddess Venus?",
+        "A": [
+            "Hera",
+            "Artemis",
+            "Athena",
+            "Aphrodite",
+            3
+        ]
+    },
+    {
+        "Q": "What is the fundamental premise of Bronislav Malinowski's approach to myth?",
+        "A": [
+            "Myth is to be understood more by its structure than by its specific details",
+            "Myth is ritual put in story form",
+            "Myth is a society's way of explaining and justifying its social customs and beliefs",
+            "Myth embodies the subconscious fears and aspirations of an individual",
+            2
+        ]
+    },
+    {
+        "Q": "What \"truth\" does Herodotus' story of Solon and Croesus illustrate?",
+        "A": [
+            "Every human will one day die",
+            "The gods will bring success and happiness to those who are humble",
+            "Life is extremely changeable and no one should be considered happy until s/he is dead",
+            "The gods will make immortal those of outstanding courage",
+            2
+        ]
+    },
+    {
+        "Q": "In the Illiad, what does Hera borrow from Aphrodite to entice Zeus?",
+        "A": [
+            "her girdle",
+            "her headband",
+            "her ring",
+            "her peplos",
+            0
+        ]
+    },
+    {
+        "Q": "Who rescued Dionysus from Semele's ashes?",
+        "A": [
+            "Athena",
+            "Pan",
+            "Hermes",
+            "Apollo",
+            2
+        ]
+    },
+    {
+        "Q": "Who was the grandfather of Pentheus?",
+        "A": [
+            "Zeus",
+            "Tiresias",
+            "Odysseus",
+            "Cadmus",
+            3
+        ]
+    },
+    {
+        "Q": "Which goddess was often placed in opposition to Aphrodite in ancient literature?",
+        "A": [
+            "Hera",
+            "Athena",
+            "Artemis",
+            "Hestia",
+            2
+        ]
+    },
+    {
+        "Q": "What designation is given to a story primarily concerned with the gods and the relationship between humans and gods?",
+        "A": [
+            "Folktale",
+            "Myth proper",
+            "Saga/Legend",
+            "Fairytale",
+            1
+        ]
+    },
+    {
+        "Q": "What upsetting thing did Metaneira, mother of the child Demophon, catch Demeter doing to the child.",
+        "A": [
+            "Demeter was annointing the child with ambrosia which was forbidden to mortals",
+            "Demeter was allowing the child to be suckled by a she-wolf",
+            "Demeter was putting the child in the fire at night",
+            "Demeter was putting the child out in the cold at night",
+            2
+        ]
+    },
+    {
+        "Q": "Around what time did the Mycenaean civilization collapse?",
+        "A": [
+            "1600 BC",
+            "1200 BC",
+            "750 BC",
+            "500 BC",
+            1
+        ]
+    },
+    {
+        "Q": "What divine figures were thought by the ancient Greeks to inspire artistic creativity?",
+        "A": [
+            "The Muses",
+            "The Graces",
+            "The Fates",
+            "The Pogues",
+            0
+        ]
+    },
+    {
+        "Q": "What is the name of the attendants of Zeus who hid him as a child?",
+        "A": [
+            "the Kouroi",
+            "the Dictai",
+            "the Cyclopes",
+            "the Curetes",
+            3
+        ]
+    },
+    {
+        "Q": "Who is the mother of Asclepius?",
+        "A": [
+            "Coronis",
+            "Daphne",
+            "Marpessa",
+            "Cyrene",
+            0
+        ]
+    },
+    {
+        "Q": "What god or goddess witnessed the abduction of Persephone?",
+        "A": [
+            "Helius",
+            "Hera",
+            "Hermes",
+            "Athena",
+            0
+        ]
+    },
+    {
+        "Q": "What was Orpheus' homeland?",
+        "A": [
+            "Phrygia",
+            "Thrace",
+            "Crete",
+            "Cumae",
+            1
+        ]
+    },
+    {
+        "Q": "What is the name for the sacred band of Dionysus?",
+        "A": [
+            "thyrsus",
+            "thiasus",
+            "entheos",
+            "petasus",
+            1
+        ]
+    },
+    {
+        "Q": "What happens to Cadmus and Harmonia at the end of the Bacchae?",
+        "A": [
+            "They are turned into dolphins.",
+            "They are turned into pine trees.",
+            "They are turned into serpents.",
+            "They are left unchanged.",
+            2
+        ]
+    },
+    {
+        "Q": "How do myths function according to Carl Jung?",
+        "A": [
+            "They metaphorically explain aspect of human nature and other universal truths",
+            "They express the repressed subconscious desires of a human individual",
+            "They are the projection of unconscious tendencies and desires of the human race",
+            "They explain the causes or origins of items of culture or the natural world",
+            2
+        ]
+    },
+    {
+        "Q": "What was the first thing that Hermes stole?",
+        "A": [
+            "Sandals",
+            "Lyre",
+            "Traveller's hat",
+            "Cattle",
+            3
+        ]
+    },
+    {
+        "Q": "What designation is given to a story about a specific hero's fantastical adventure whose primary goal is to entertain?",
+        "A": [
+            "Folktale",
+            "Myth proper",
+            "Saga/Legend",
+            "Fairytale",
+            0
+        ]
+    },
+    {
+        "Q": "What does the name Pandora mean?",
+        "A": [
+            "All Gifts",
+            "All Beauty",
+            "All Evils",
+            "All Lies",
+            0
+        ]
+    },
+    {
+        "Q": "Which goddess typically carries a bow and arrow?",
+        "A": [
+            "Aphrodite",
+            "Athena",
+            "Artemis",
+            "Leto",
+            2
+        ]
+    },
+    {
+        "Q": "Who is the wife of Poseidon?",
+        "A": [
+            "Amphitrite",
+            "Metis",
+            "Doris",
+            "Scylla",
+            0
+        ]
+    },
+    {
         "Q": "Who is the mother of Artemis?",
         "A": [
             "Leto",
@@ -387,16 +1247,6 @@
             "Lycanthrope",
             "Leda",
             0
-        ]
-    },
-    {
-        "Q": "What was the subject of Hermes' first song?",
-        "A": [
-            "He sang of Prometheus and the theft of fire.",
-            "He sang of his own conception and birth.",
-            "He sang of Apollo and his oracle at Delphi.",
-            "He sang of the adulterous affair of Aphrodite and Ares.",
-            1
         ]
     }
 ]
