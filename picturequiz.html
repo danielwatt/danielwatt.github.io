@@ -43,8 +43,6 @@ oReq.onload = reqListener;
 oReq.open("get", "picturequestion.json", true);
 oReq.send();
 
-nextQuestion();
-
 function pictureSelected(){
 	if (isDescriptionShown == true){
 		nextQuestion();
@@ -85,6 +83,8 @@ function reqListener(e) {
     for (var i = 0; i< totalSize; i++){
     	answeredQuestions[i] = 0;
     }
+
+    console.log(totalSize);
 
     nextQuestion();
 }
