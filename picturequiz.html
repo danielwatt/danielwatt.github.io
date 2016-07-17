@@ -13,9 +13,14 @@ button {
     margin: 4px 2px;
 }
 
-p {
+#description {
 	font-size: 25px;
 }
+
+#disclaimer {
+	font-size: 12px;
+}
+
 button:focus {outline:0;}
 
 button:hover { 
@@ -28,6 +33,7 @@ button:hover {
 <p>
 <button id="button1" onclick="pictureSelected()"><img id="picture" src="https://learn.uwaterloo.ca/content/enforced/251869-CLAS104_081_cel_1165/images/module02/large/Image1Knossos.jpg" style="height:50%;width:50%"></button>
 </p><p id="description">DESCRIPTION HERE</p>
+<p>If image cannot be displayed, you must log into learn <a href="https://learn.uwaterloo.ca" target="_blank">here</a> </p>
 
 <script>
 var answer;
@@ -93,6 +99,7 @@ function reqListener(e) {
 function completedQuiz(){
 	document.getElementById("description").innerHTML = "COMPLETED QUIZ";
 	document.getElementById("picture").src = "http://i.makeagif.com/media/8-27-2015/edWylV.gif"
+	document.getElementByID("total").innerHTML = "COMPLETED";
 	completeAudio.play();
 
 }
