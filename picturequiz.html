@@ -18,7 +18,7 @@ button {
 }
 
 #disclaimer {
-	font-size: 12px;
+	font-size: 5px;
 }
 
 button:focus {outline:0;}
@@ -99,7 +99,7 @@ function reqListener(e) {
 function completedQuiz(){
 	document.getElementById("description").innerHTML = "COMPLETED QUIZ";
 	document.getElementById("picture").src = "http://i.makeagif.com/media/8-27-2015/edWylV.gif"
-	document.getElementByID("total").innerHTML = "COMPLETED";
+	document.getElementById("total").innerHTML = "COMPLETED";
 	completeAudio.play();
 
 }
