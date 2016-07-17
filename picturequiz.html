@@ -59,6 +59,7 @@ function pictureSelected(){
 }
 
 function nextQuestion(){
+	isDescriptionShown = false;
 	document.getElementById("description").innerHTML = "";
 	questionsAnswered++;
 	document.getElementById("total").innerHTML = (questionsAnswered) + "/" + totalSize;
