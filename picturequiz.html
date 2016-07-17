@@ -57,7 +57,7 @@ function pictureSelected(){
 function nextQuestion(){
 	questionsAnswered++;
 	document.getElementById("total").innerHTML = (questionsAnswered) + "/" + totalSize;
-	if (questionsAnswered >= totalSize){
+	if (questionsAnswered > totalSize){
 		completedQuiz();
 		return;
 	}
