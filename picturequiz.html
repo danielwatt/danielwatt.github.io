@@ -26,13 +26,8 @@ button:hover {
 
 <h2 id="total">0 / 0</h2>
 <p>
-<button id="buttonNext" onclick="nextQuestion()"></button>
-</p><p>
 <button id="button1" onclick="pictureSelected()"><img id="picture" src="https://learn.uwaterloo.ca/content/enforced/251869-CLAS104_081_cel_1165/images/module02/large/Image1Knossos.jpg" style="height:50%;width:50%"></button>
 </p><p id="description">DESCRIPTION HERE</p>
-<p>
-<button id="buttonNext" onclick="nextQuestion()"></button>
-</p>
 
 <script>
 var answer;
@@ -54,7 +49,6 @@ function pictureSelected(){
 	} else{
 		document.getElementById("description").innerHTML = questionData[currentQuestionIndex].A;
 		isDescriptionShown = true;
-		document.getElementById("buttonNext").innerHTML = "NEXT QUESTION";
 	}
 }
 
@@ -68,7 +62,6 @@ function nextQuestion(){
 		return;
 	}
 
-	document.getElementById("buttonNext").innerHTML = "";
     var rand = Math.floor(Math.random()*totalSize);
     
     while (answeredQuestions[rand] == 1){
@@ -98,7 +91,6 @@ function reqListener(e) {
 
 function completedQuiz(){
 	document.getElementById("description").innerHTML = "COMPLETED QUIZ";
-	document.getElementById("buttonNext").innerHTML = "";
 }
 
 </script>
