@@ -37,6 +37,7 @@ var currentQuestionIndex;
 var questionData;
 var isDescriptionShown = false;
 var answeredQuestions = [];
+var completeAudio = new Audio('quizfiles/complete.mp3');
 var oReq = new XMLHttpRequest();
 oReq.onload = reqListener;
 oReq.open("get", "picturequestion.json", true);
@@ -91,6 +92,9 @@ function reqListener(e) {
 
 function completedQuiz(){
 	document.getElementById("description").innerHTML = "COMPLETED QUIZ";
+	document.getElementById("picture").src = "http://i.makeagif.com/media/8-27-2015/edWylV.gif"
+	completeAudio.play();
+
 }
 
 </script>
