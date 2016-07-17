@@ -25,7 +25,7 @@ button:hover {
 <button id="buttonNext" onclick="nextQuestion()"></button>
 </p><p>
 <button id="button1" onclick="pictureSelected()"><img id="picture" src="https://learn.uwaterloo.ca/content/enforced/251869-CLAS104_081_cel_1165/images/module02/large/Image1Knossos.jpg" height="467" width="700"></button>
-</p><p id="description">Description Here</p>
+</p><p id="description"></p>
 <p>
 <button id="buttonNext" onclick="nextQuestion()"></button>
 </p>
@@ -44,10 +44,11 @@ oReq.open("get", "picturequestion.json", true);
 oReq.send();
 
 function pictureSelected(){
+	console.log("picture selected");
 	if (isDescriptionShown == true){
 		nextQuestion();
 	} else{
-		docuent.getElementById("description").innerHTML = questionData[currentQuestionIndex].A;
+		document.getElementById("description").innerHTML = questionData[currentQuestionIndex].A;
 		isDescriptionShown = true;
 		document.getElementById("buttonNext").innerHTML = "NEXT QUESTION";
 	}
