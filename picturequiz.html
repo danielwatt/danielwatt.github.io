@@ -12,6 +12,10 @@ button {
     font-size: 16px;
     margin: 4px 2px;
 }
+
+p {
+	font-size: 16px;
+}
 button:focus {outline:0;}
 
 button:hover { 
@@ -24,8 +28,8 @@ button:hover {
 <p>
 <button id="buttonNext" onclick="nextQuestion()"></button>
 </p><p>
-<button id="button1" onclick="pictureSelected()"><img id="picture" src="https://learn.uwaterloo.ca/content/enforced/251869-CLAS104_081_cel_1165/images/module02/large/Image1Knossos.jpg" height="467" width="700"></button>
-</p><p id="description"></p>
+<button id="button1" onclick="pictureSelected()"><img id="picture" src="https://learn.uwaterloo.ca/content/enforced/251869-CLAS104_081_cel_1165/images/module02/large/Image1Knossos.jpg" style="height:50%;width:50%"></button>
+</p><p id="description">DESCRIPTION HERE</p>
 <p>
 <button id="buttonNext" onclick="nextQuestion()"></button>
 </p>
@@ -55,6 +59,7 @@ function pictureSelected(){
 }
 
 function nextQuestion(){
+	documne.getElementById("description").innerHTML = "";
 	questionsAnswered++;
 	document.getElementById("total").innerHTML = (questionsAnswered) + "/" + totalSize;
 	if (questionsAnswered > totalSize){
