@@ -1,0 +1,502 @@
+[
+    {
+        "Q": "Who is Andromeda's fianc\u00e9?",
+        "A": [
+            "Cepheus",
+            "Polydectes",
+            "Phineus",
+            "Acrisius",
+            2
+        ]
+    },
+    {
+        "Q": "For what king did Heracles perform his Twelve Labors?",
+        "A": [
+            "Eurytus",
+            "Eurystheus",
+            "Electryon",
+            "Zeus",
+            1
+        ]
+    },
+    {
+        "Q": "In what expedition with Heracles does Theseus encounter the mother of Hippolytus?",
+        "A": [
+            "against the Amazons",
+            "with the Argonauts",
+            "against the Centaurs",
+            "against the Minotaur",
+            0
+        ]
+    },
+    {
+        "Q": "Who is Tisiphone?",
+        "A": [
+            "the prophetess who guides Aeneas into the Underworld",
+            "the Fury who guards the entrance to Tartarus",
+            "one of the maenads who tore Pentheus apart",
+            "another name for Persephone",
+            1
+        ]
+    },
+    {
+        "Q": "In some stories Laius brings a curse down upon his family by which of the following ways?",
+        "A": [
+            "He cheats his chariot driver of his requested price and kills him.",
+            "He steals a golden-fleeced ram.",
+            "He abducts the son of his host in exile.",
+            "He has his son exposed in a trackless waste to die.",
+            2
+        ]
+    },
+    {
+        "Q": "Who carried the bow of Heracles, without the aid of which Troy could not fall?",
+        "A": [
+            "Patroclus",
+            "Achilles",
+            "Telephus",
+            "Philoctetes",
+            3
+        ]
+    },
+    {
+        "Q": "What god aids Odysseus' escape from Circe with the aid of the moly?",
+        "A": [
+            "Athena",
+            "Zeus",
+            "Eidothea",
+            "Hermes",
+            3
+        ]
+    },
+    {
+        "Q": "Who tells Odysseus that he was murdered by his wife?",
+        "A": [
+            "Idomeneus",
+            "Rhesus",
+            "Diomedes",
+            "Agamemnon",
+            3
+        ]
+    },
+    {
+        "Q": "Who abused the privilege of eating with the gods by serving them his son?",
+        "A": [
+            "Tantalus",
+            "Pelops",
+            "Atreus",
+            "Agamemnon",
+            0
+        ]
+    },
+    {
+        "Q": "Who was the last king of Athens?",
+        "A": [
+            "Theseus",
+            "Codrus",
+            "Demophon",
+            "Nisus",
+            1
+        ]
+    },
+    {
+        "Q": "In what city does Euripides' \"Medea\" take place?",
+        "A": [
+            "Athens",
+            "Iolcus",
+            "Corinth",
+            "Miletus",
+            2
+        ]
+    },
+    {
+        "Q": "Who is the brother of Heracles?",
+        "A": [
+            "Eurystheus",
+            "Iola\u00fcs",
+            "Iphicles",
+            "Eurytus",
+            2
+        ]
+    },
+    {
+        "Q": "Who was the wife of Atreus?",
+        "A": [
+            "Leda",
+            "Niobe",
+            "Hermione",
+            "A\u00ebrope",
+            3
+        ]
+    },
+    {
+        "Q": "What precisely does the Greek word sphinx mean?",
+        "A": [
+            "riddler",
+            "pestilence",
+            "monster",
+            "strangler",
+            3
+        ]
+    },
+    {
+        "Q": "Who was the husband of Laodamia and, though he was the first Greek hero killed in the war, returned briefly to spend one final night with her?",
+        "A": [
+            "Cycnus",
+            "Protesila\u00fcs",
+            "Memnon",
+            "Telephus",
+            1
+        ]
+    },
+    {
+        "Q": "Who are born from the immortal egg of Leda?",
+        "A": [
+            "Helen and Clytemnestra",
+            "Castor and Polydeuces",
+            "Castor and Helen",
+            "Helen and Polydeuces",
+            3
+        ]
+    },
+    {
+        "Q": "In whose court is Orestes raised?",
+        "A": [
+            "Aegisthus'",
+            "Strophius'",
+            "Pylades'",
+            "Menela\u00fcs'",
+            1
+        ]
+    },
+    {
+        "Q": "Who is the mother of Theseus?",
+        "A": [
+            "Aethra",
+            "Megara",
+            "Orithyia",
+            "Procne",
+            0
+        ]
+    },
+    {
+        "Q": "Who did Oedipus believe were his parents before he learned the truth?",
+        "A": [
+            "Jocasta and Laius",
+            "Laius and Merope",
+            "Polybus and Merope",
+            "Lycus and Dirce",
+            2
+        ]
+    },
+    {
+        "Q": "What three things does Aeneas require to enter the Underworld?",
+        "A": [
+            "a coin, a medicated cake, and a sword",
+            "a coin, a sacrifice to Hades, and a cloak",
+            "a coin, the golden bough, and a medicated cake",
+            "a sword, the golden bough and a medicated cake",
+            3
+        ]
+    },
+    {
+        "Q": "Whose son does Theseus claim to be when Minos makes an attempt upon one of the Athenian maids onboard ship?",
+        "A": [
+            "Zeus",
+            "Triton",
+            "Proteus",
+            "Poseidon",
+            3
+        ]
+    },
+    {
+        "Q": "What assistant of Daedalus invented the saw from a fish's backbone?",
+        "A": [
+            "Icarus",
+            "Virbius",
+            "Perdix",
+            "Codrus",
+            2
+        ]
+    },
+    {
+        "Q": "How did Odysseus and his men offend the god Helius?",
+        "A": [
+            "They blinded his son Polyphemus.",
+            "They stole his cattle.",
+            "They tried to trick the Sirens by stopping their ears with wax.",
+            "They tried to carry off Calypso",
+            1
+        ]
+    },
+    {
+        "Q": "Which is not a name for the king of the Underworld?",
+        "A": [
+            "Hades",
+            "Pluto",
+            "Dis",
+            "Erebus",
+            3
+        ]
+    },
+    {
+        "Q": "What is the name of the hateful river in the Underworld?",
+        "A": [
+            "Lethe",
+            "Cocytus",
+            "Styx",
+            "Acheron",
+            2
+        ]
+    },
+    {
+        "Q": "In the usual version of the myth, what is Pelops' most distinguishing feature?",
+        "A": [
+            "an ivory shoulder",
+            "a bronze jaw",
+            "an iron hand",
+            "a glass eye",
+            0
+        ]
+    },
+    {
+        "Q": "In the myth of Er, who returns to life as a lion because he remembered the judgment of Achilles' armour?",
+        "A": [
+            "Odysseus",
+            "Ajax",
+            "Triptolemus",
+            "Agamemnon",
+            1
+        ]
+    },
+    {
+        "Q": "What woman, killed before the tomb of Achilles, will be the final sacrifice of the war?",
+        "A": [
+            "Hecuba",
+            "Polyxena",
+            "Penthesilea",
+            "Andromache",
+            1
+        ]
+    },
+    {
+        "Q": "Who seduces Atreus' wife and takes possession of the talisman that guarantees kingship of Mycenae?",
+        "A": [
+            "Thyestes",
+            "Aegisthus",
+            "Pelops",
+            "Myrtilus",
+            0
+        ]
+    },
+    {
+        "Q": "Who was the queen of the Lemnian women?",
+        "A": [
+            "Pero",
+            "Hypsipyle",
+            "Glauce",
+            "Clymene",
+            1
+        ]
+    },
+    {
+        "Q": "Who is the deformed soldier who speaks against Agamemnon and is soundly thrashed by Odysseus?",
+        "A": [
+            "Thersites",
+            "Glaucus",
+            "Dolon",
+            "Hipolochus",
+            0
+        ]
+    },
+    {
+        "Q": "What does Odysseus do to summon the dead?",
+        "A": [
+            "He sings a song of the glorious deeds of men.",
+            "He digs a pit and fills it with the blood of sacrificial victims.",
+            "He descends to the Underworld through a cave and lays an offering at the palace of Dis.",
+            "He sets out a table of food.",
+            1
+        ]
+    },
+    {
+        "Q": "Why must the Trojans lose the war?",
+        "A": [
+            "Because Zeus has sided with the Greeks from the beginning.",
+            "Because the Trojans have broken the rules of courtesy, the sanctity of the family, and the guest-host relationship.",
+            "because the Trojans, having loving family relationships, are essentially effeminate compared with the extreme masculinity of the Greeks.",
+            "Because humans have no free will; everything has been predetermined since the dawn of time.",
+            1
+        ]
+    },
+    {
+        "Q": "Who was the husband of Alcmena?",
+        "A": [
+            "Electryon",
+            "Pterela\u00fcs",
+            "Amphitryon",
+            "Sthenelus",
+            2
+        ]
+    },
+    {
+        "Q": "What is the first image we see of Odysseus in the Odyssey?",
+        "A": [
+            "He is clinging to a piece of bark at sea.",
+            "He is sailing in his last ship to Circe's island.",
+            "He is sitting on the shore of Calypso's isle.",
+            "He is just about to land upon the island of Polyphemus.",
+            2
+        ]
+    },
+    {
+        "Q": "What would prove the identity of the rightful king of Mycenae in the generation after Pelops?",
+        "A": [
+            "the correct answer to a riddle",
+            "true descent from the previous king",
+            "a scar",
+            "the possession of a golden-fleeced ram",
+            3
+        ]
+    },
+    {
+        "Q": "Who tells Aeneas that he died through the trickery of Helen at the hands of Menela\u00fcs and Odysseus?",
+        "A": [
+            "De\u00efphobus",
+            "Palinurus",
+            "Paris",
+            "Sychaeus",
+            0
+        ]
+    },
+    {
+        "Q": "What is the closest meaning for the name of Dictys?",
+        "A": [
+            "raft",
+            "net",
+            "salvation",
+            "preserver",
+            1
+        ]
+    },
+    {
+        "Q": "What knowledge is Cadmus credited with bringing to Greece?",
+        "A": [
+            "shipbuilding",
+            "cultivation of the vine",
+            "writing",
+            "making iron",
+            2
+        ]
+    },
+    {
+        "Q": "What was the crime for which Sisyphus was punished?",
+        "A": [
+            "He revealed that Zeus had carried off a nymph.",
+            "He cheated death twice.",
+            "He tried to rape Hera.",
+            "He attempted to feed the gods human flesh.",
+            0
+        ]
+    },
+    {
+        "Q": "What event does not take place in the quest of Perseus?",
+        "A": [
+            "The Gorgon's blood drips upon Libya and produces poisonous snakes.",
+            "Atlas is transformed into stone.",
+            "The head of Medusa creates coral.",
+            "Perseus escapes with Pegasus and rescues Cassiepea.",
+            3
+        ]
+    },
+    {
+        "Q": "After what Labor does Heracles institute the Olympic Games?",
+        "A": [
+            "the Lernaean Hydra",
+            "the Stymphalian Birds",
+            "the Augean Stables",
+            "the Nemean Lion",
+            2
+        ]
+    },
+    {
+        "Q": "Who are the daughters of Phorcys whose name means the aged ones?",
+        "A": [
+            "the Gorgons",
+            "the Stygian Nymphs",
+            "the Graeae",
+            "the Hags of Seriphos",
+            2
+        ]
+    },
+    {
+        "Q": "What goddess especially aided Jason?",
+        "A": [
+            "Hera",
+            "Artemis",
+            "Demeter",
+            "Hecate",
+            0
+        ]
+    },
+    {
+        "Q": "What crewman of the argo could change his appearance in battle?",
+        "A": [
+            "Idas",
+            "Castor",
+            "Periclymenus",
+            "Neleus",
+            2
+        ]
+    },
+    {
+        "Q": "Who was the helmsman of the Argo?",
+        "A": [
+            "Argus",
+            "Tiphys",
+            "Zetes",
+            "Euphemus",
+            1
+        ]
+    },
+    {
+        "Q": "What token, thrown into the sea, is Theseus to retrieve to prove his claim to be Poseidon's son?",
+        "A": [
+            "a sword",
+            "a ring",
+            "a conch shell",
+            "a gold coin",
+            1
+        ]
+    },
+    {
+        "Q": "Who is the son of Achilles and murderer of Priam?",
+        "A": [
+            "Paris",
+            "Patroclus",
+            "Neoptolemus",
+            "Cycnus",
+            2
+        ]
+    },
+    {
+        "Q": "Which companion of Heracles is lost on the Argonaut expedition?",
+        "A": [
+            "Hylas",
+            "Orpheus",
+            "Calais",
+            "Zetes",
+            0
+        ]
+    },
+    {
+        "Q": "Who requested burial from Odysseus in the Underworld?",
+        "A": [
+            "Elpenor",
+            "Achilles",
+            "Misenus",
+            "Palinurus",
+            0
+        ]
+    }
+]

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<style>
+button {
+    background-color: #FFFFFF;
+    border: none;
+    color: black;
+    padding: 0px 0px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+button:focus {outline:0;}
+
+button:hover { 
+    color: #D3D3D3;
+}
+</style>
+<body>
+
+<h2 id="question">Null</h2>
+<h4 id="total"></h4>
+<p>
+<button id="button0" onclick="answerSelected(0)">null0</button>
+</p><p>
+<button id="button1" onclick="answerSelected(1)">null1</button>
+</p><p>
+<button id="button2" onclick="answerSelected(2)">null2</button>
+</p><p>
+<button id="button3" onclick="answerSelected(3)">null3</button>
+</p>
+
+<p id="result" size="15"></p>
+<p>
+<img id="trump" src="http://www.hellenism.net/images/greek-gods.jpg" height="467" width="700">
+</p>
+<script>
+var answer;
+var winAudio = new Audio('quizfiles/trumpsounds/good.wav');
+var loseAudio = new Audio('quizfiles/trumpsounds/bad1.wav');
+var questionData;
+var questionArray;
+var totalSize;
+var prevQuestion = "";
+var prevCorrectAnswer = "";
+var numOfCorrect = 0;
+var questionsAnswered = 0;
+
+initialize();
+
+function initialize(){
+	var oReq = new XMLHttpRequest();
+	oReq.onload = reqListener;
+	oReq.open("get", "postmidterm.json", true);
+	oReq.send();
+}
+
+function answerSelected(ans){
+	var image = document.getElementById('trump');
+	questionsAnswered++;
+	if (ans == answer){
+		numOfCorrect++;
+		document.getElementById("result").innerHTML = "<b>CORRECT</b>"
+		winAudio.play();
+		image.src = "quizfiles/trumppics/good1.jpg";
+	} else{
+		document.getElementById("result").innerHTML = "<p><b>Prev Question:</b> " + prevQuestion + "</p>" + "<p><b>Answer was:</b> " + prevCorrectAnswer + "</p>"; 
+		loseAudio.play();
+		var randAud = Math.floor(Math.random()*3)+1;
+		// loseAudio.src('quizfiles/trumpsounds/bad' + randAud + '.wav');
+		image.src = "quizfiles/trumppics/bad1.jpg";
+	}
+	nextQuestion();
+}
+
+function nextQuestion(){
+	document.getElementById("total").innerHTML = (questionsAnswered+1) + "/" + totalSize;
+	if (questionsAnswered >= totalSize){
+		completedQuiz();
+		return;
+	}
+	var rand = Math.floor(Math.random()*totalSize);
+	while (questionArray[rand] == true){
+		rand = Math.floor(Math.random()*totalSize);
+	}
+	questionArray[rand] = true;
+	prevQuestion = questionData[rand].Q;
+    document.getElementById("question").innerHTML = questionData[rand].Q;
+
+    // Randomizing answers
+	var arr = [0,0,0,0];
+	prevCorrectAnswer = questionData[rand].A[questionData[rand].A[4]];
+	for (i = 0 ; i<4; i++){
+
+		var randAnswer = Math.floor(Math.random()*4);
+
+		while (arr[randAnswer] == 1){
+			randAnswer = Math.floor(Math.random()*4);
+		}
+
+		arr[randAnswer] = 1;
+
+		document.getElementById("button".concat(randAnswer)).innerHTML = questionData[rand].A[i];
+
+		if (questionData[rand].A[4] == i){
+			answer = randAnswer;
+		} 
+	}
+}
+function completedQuiz(){
+	document.getElementById("question").innerHTML = "You got: " + numOfCorrect + "/" + totalSize;
+	document.getElementById("result").innerHTML = "";
+	document.getElementById("button1").innerHTML = "";
+	document.getElementById("button2").innerHTML = "";
+	document.getElementById("button3").innerHTML = "";
+	document.getElementById("button0").innerHTML = "";
+	document.getElementById("total").innerHTML = "";
+}
+
+function reqListener(e) {
+    questionData = JSON.parse(this.responseText);
+	totalSize = Object.keys(questionData).length;
+	questionArray = new Array(totalSize);
+	for (i = 0; i < totalSize; i++){
+		questionArray[i] = false;
+	}
+	nextQuestion();
+}
+
+</script>
+
+</body>
+</html>
+
