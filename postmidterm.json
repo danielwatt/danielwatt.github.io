@@ -1,5 +1,15 @@
 [
     {
+        "Q": "Whose daughter does Jason propose to marry, thus provoking Medea's wrath?",
+        "A": [
+            "Cretheus'",
+            "Amycus'",
+            "Aegeus'",
+            "Creon's",
+            3
+        ]
+    },
+    {
         "Q": "Who is Andromeda's fianc\u00e9?",
         "A": [
             "Cepheus",
@@ -7,6 +17,16 @@
             "Phineus",
             "Acrisius",
             2
+        ]
+    },
+    {
+        "Q": "Who is the last hero Odysseus is said to have spoken to in the Underworld?",
+        "A": [
+            "Ajax",
+            "Heracles",
+            "Kiomedes",
+            "Oedipus",
+            1
         ]
     },
     {
@@ -30,6 +50,16 @@
         ]
     },
     {
+        "Q": "Who wins the contest for Achilles' arms?",
+        "A": [
+            "Odysseus, the son of Laertes",
+            "Ajax, the son of Telamon",
+            "Ajax, the son of O\u00d4leus",
+            "Diomedes, the son of Tydeus",
+            0
+        ]
+    },
+    {
         "Q": "Who is Tisiphone?",
         "A": [
             "the prophetess who guides Aeneas into the Underworld",
@@ -37,6 +67,16 @@
             "one of the maenads who tore Pentheus apart",
             "another name for Persephone",
             1
+        ]
+    },
+    {
+        "Q": "What does the name 'Argo' mean?",
+        "A": [
+            "swift",
+            "white-sailed",
+            "with curved prow",
+            "large",
+            0
         ]
     },
     {
@@ -50,6 +90,26 @@
         ]
     },
     {
+        "Q": "Who died in grief, longing for Odysseus' return?",
+        "A": [
+            "Anticlea",
+            "Tiresias",
+            "Penelope",
+            "Calypso",
+            0
+        ]
+    },
+    {
+        "Q": "With whom does Odysseus spend seven years of his ten-year return home?",
+        "A": [
+            "Calypso",
+            "Circe",
+            "Polyphemus",
+            "Aeolus",
+            0
+        ]
+    },
+    {
         "Q": "Who carried the bow of Heracles, without the aid of which Troy could not fall?",
         "A": [
             "Patroclus",
@@ -57,6 +117,16 @@
             "Telephus",
             "Philoctetes",
             3
+        ]
+    },
+    {
+        "Q": "Where was the centre in Greece for the worship of Hera?",
+        "A": [
+            "Mycenae",
+            "Thebes",
+            "Argos",
+            "Delos",
+            2
         ]
     },
     {
@@ -96,6 +166,16 @@
             "Codrus",
             "Demophon",
             "Nisus",
+            1
+        ]
+    },
+    {
+        "Q": "Who was the father of Cadmus?",
+        "A": [
+            "Zeus",
+            "Agenor",
+            "Labdacus",
+            "Lycus",
             1
         ]
     },
@@ -143,10 +223,40 @@
         "Q": "Who was the husband of Laodamia and, though he was the first Greek hero killed in the war, returned briefly to spend one final night with her?",
         "A": [
             "Cycnus",
-            "Protesila\u00fcs",
+            "Protesila\u00b8s",
             "Memnon",
             "Telephus",
             1
+        ]
+    },
+    {
+        "Q": "In what encounter does Odysseus lose all his remaining comrades?",
+        "A": [
+            "the encounter with Polyphemus",
+            "the encounter with Circe",
+            "the encounter with the Cattle of the Sun",
+            "the encounter with the Laestrygonians",
+            2
+        ]
+    },
+    {
+        "Q": "Who was the Boeotian king who took Nephele as his first wife?",
+        "A": [
+            "Phrixus",
+            "Athamas",
+            "Acastus",
+            "Cretheus",
+            1
+        ]
+    },
+    {
+        "Q": "How did Elpenor die?",
+        "A": [
+            "He was killed at Troy.",
+            "He was swept off his ship and dies at sea.",
+            "He was killed by the Cyclops Polyphemus.",
+            "He went to sleep on a roof and fell off.",
+            3
         ]
     },
     {
@@ -160,13 +270,53 @@
         ]
     },
     {
+        "Q": "Who is Andromeda's fianc\u00c8?",
+        "A": [
+            "Cepheus",
+            "Polydectes",
+            "Phineus",
+            "Acrisius",
+            2
+        ]
+    },
+    {
         "Q": "In whose court is Orestes raised?",
         "A": [
             "Aegisthus'",
             "Strophius'",
             "Pylades'",
-            "Menela\u00fcs'",
+            "Menela\u00b8s'",
             1
+        ]
+    },
+    {
+        "Q": "Agamemnon refused to give back to Apollo's priest his daughter, named:",
+        "A": [
+            "Brise\u00d4s",
+            "Chryse\u00d4s",
+            "Helen",
+            "Andromache",
+            1
+        ]
+    },
+    {
+        "Q": "According to Homer, with what legendary tribe did Bellerophon have his most violent battle with men?",
+        "A": [
+            "Amazons",
+            "Solymi",
+            "Spartans",
+            "Egyptians",
+            1
+        ]
+    },
+    {
+        "Q": "According to one version of the story, Tiresias loses his sight because he saw which goddess bathing?",
+        "A": [
+            "Artemis",
+            "Aphrodite",
+            "Hera",
+            "Athena",
+            3
         ]
     },
     {
@@ -260,6 +410,16 @@
         ]
     },
     {
+        "Q": "What was the name of the Amazon queen whose girdle Heracles took in battle?",
+        "A": [
+            "Omphale",
+            "Hesione",
+            "Hippolyta",
+            "Antiope",
+            2
+        ]
+    },
+    {
         "Q": "In the myth of Er, who returns to life as a lion because he remembered the judgment of Achilles' armour?",
         "A": [
             "Odysseus",
@@ -307,6 +467,16 @@
             "Dolon",
             "Hipolochus",
             0
+        ]
+    },
+    {
+        "Q": "What incident in Jason's story is related in a vase painting but not in any of the literary sources?",
+        "A": [
+            "Jason riding on Pegasus",
+            "Jason being disgorged by the dragon",
+            "Jason visiting Persephone in the Underworld",
+            "Jason encountering the Gorgon Medusa",
+            1
         ]
     },
     {
@@ -360,6 +530,16 @@
         ]
     },
     {
+        "Q": "What is the gift that Hermes provides Perseus?",
+        "A": [
+            "winged sandals",
+            "a scimitar",
+            "a bag",
+            "a mirror-shield",
+            1
+        ]
+    },
+    {
         "Q": "Who tells Aeneas that he died through the trickery of Helen at the hands of Menela\u00fcs and Odysseus?",
         "A": [
             "De\u00efphobus",
@@ -377,6 +557,16 @@
             "salvation",
             "preserver",
             1
+        ]
+    },
+    {
+        "Q": "What poet describes the descent of Aeneas into the Underworld?",
+        "A": [
+            "Homer",
+            "Ovid",
+            "Hesiod",
+            "Vergil",
+            3
         ]
     },
     {
@@ -400,6 +590,16 @@
         ]
     },
     {
+        "Q": "Who is the bard that sings at the court of the Phaeacians?",
+        "A": [
+            "Phemius",
+            "Maron",
+            "Melanthius",
+            "Demodocus",
+            3
+        ]
+    },
+    {
         "Q": "What event does not take place in the quest of Perseus?",
         "A": [
             "The Gorgon's blood drips upon Libya and produces poisonous snakes.",
@@ -410,6 +610,16 @@
         ]
     },
     {
+        "Q": "What is the name of the river of forgetfulness in the Underworld?",
+        "A": [
+            "Phlegethon",
+            "Lethe",
+            "Styx",
+            "Cocytus",
+            1
+        ]
+    },
+    {
         "Q": "After what Labor does Heracles institute the Olympic Games?",
         "A": [
             "the Lernaean Hydra",
@@ -417,6 +627,46 @@
             "the Augean Stables",
             "the Nemean Lion",
             2
+        ]
+    },
+    {
+        "Q": "What does the name Harpies mean?",
+        "A": [
+            "winged",
+            "snatchers",
+            "foul smelling",
+            "hideous",
+            1
+        ]
+    },
+    {
+        "Q": "Where is the infant Oedipus exposed?",
+        "A": [
+            "Mt. Cithaeron",
+            "Mt. Parnassus",
+            "Mt. Dicte",
+            "Mt. Ida",
+            0
+        ]
+    },
+    {
+        "Q": "Who was bribed by Pelops to fix the chariot race?",
+        "A": [
+            "Marsyas",
+            "Tantalus",
+            "Myrtilus",
+            "Oenoma\u00b8s",
+            2
+        ]
+    },
+    {
+        "Q": "Who was the king of Seriphos and brother to Dictys?",
+        "A": [
+            "Proetus",
+            "Polydectes",
+            "Abas",
+            "Cepheus",
+            1
         ]
     },
     {
@@ -450,6 +700,36 @@
         ]
     },
     {
+        "Q": "Who was the only one that was tricked into taking part in the human feast offered to the gods?",
+        "A": [
+            "Athena",
+            "Demeter",
+            "Hera",
+            "Poseidon",
+            1
+        ]
+    },
+    {
+        "Q": "Which of the following kings was detained in Egypt?",
+        "A": [
+            "Agamemnon",
+            "Menela\u00b8s",
+            "Idomeneus",
+            "Diomedes",
+            1
+        ]
+    },
+    {
+        "Q": "Theseus abandons Ariadne on what island?",
+        "A": [
+            "Lemnos",
+            "Naxos",
+            "Crete",
+            "Samos",
+            1
+        ]
+    },
+    {
         "Q": "Who was the helmsman of the Argo?",
         "A": [
             "Argus",
@@ -470,12 +750,52 @@
         ]
     },
     {
+        "Q": "Where is Oedipus raised?",
+        "A": [
+            "Athens",
+            "Sparta",
+            "Argos",
+            "Corinth",
+            3
+        ]
+    },
+    {
         "Q": "Who is the son of Achilles and murderer of Priam?",
         "A": [
             "Paris",
             "Patroclus",
             "Neoptolemus",
             "Cycnus",
+            2
+        ]
+    },
+    {
+        "Q": "In the myth of Er, who was the tyrant who had killed his parents and experienced horrific suffering in the afterlife?",
+        "A": [
+            "Tantalus",
+            "Oedipus",
+            "Ardiaeus",
+            "Scylla",
+            2
+        ]
+    },
+    {
+        "Q": "Who cuts a purple lock of her father's hair out of love for Minos?",
+        "A": [
+            "Megara",
+            "Apemosyne",
+            "Scylla",
+            "Pasipha\u00ce",
+            2
+        ]
+    },
+    {
+        "Q": "Who is the son of Minos for whose death Minos seeks vengeance from Athens?",
+        "A": [
+            "Medus",
+            "Hecalus",
+            "Androgeos",
+            "Melampus",
             2
         ]
     },
@@ -487,6 +807,16 @@
             "Calais",
             "Zetes",
             0
+        ]
+    },
+    {
+        "Q": "Who was the grandfather of Theseus and king of Troezen?",
+        "A": [
+            "Pallas",
+            "Aegeus",
+            "Lycus",
+            "Pittheus",
+            3
         ]
     },
     {
