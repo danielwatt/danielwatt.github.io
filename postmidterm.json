@@ -1,15 +1,5 @@
 [
     {
-        "Q": "",
-        "A": [
-            "",
-            "",
-            "",
-            "",
-            2
-        ]
-    },
-    {
         "Q": "What comic tale does the Phaeacian bard tell to lighten the mood?",
         "A": [
             "the story of Heracles and the dwarves",
@@ -32,7 +22,7 @@
     {
         "Q": "What does the name 'Argo' mean?",
         "A": [
-            "",
+            "swift",
             "white-sailed",
             "with curved prow",
             "large",
@@ -833,7 +823,7 @@
         "Q": "What precisely does the Greek word sphinx mean?",
         "A": [
             "riddler",
-            "",
+            "pesilence",
             "monster",
             "strangler",
             3
