@@ -1,5 +1,25 @@
 [
     {
+        "Q": "",
+        "A": [
+            "",
+            "",
+            "",
+            "",
+            2
+        ]
+    },
+    {
+        "Q": "What comic tale does the Phaeacian bard tell to lighten the mood?",
+        "A": [
+            "the story of Heracles and the dwarves",
+            "the tale of the adultery of Aphrodite and Ares",
+            "the story of Jason and the Argo",
+            "the tale of how Achilles tried to avoid the Trojan War",
+            1
+        ]
+    },
+    {
         "Q": "Who tells Aeneas that he died through the trickery of Helen at the hands of Menela\u00fcs and Odysseus?",
         "A": [
             "De\u00efphobus",
@@ -12,7 +32,7 @@
     {
         "Q": "What does the name 'Argo' mean?",
         "A": [
-            "swift",
+            "",
             "white-sailed",
             "with curved prow",
             "large",
@@ -87,6 +107,16 @@
             "Hera",
             "Athena",
             3
+        ]
+    },
+    {
+        "Q": "Who tells Aeneas that he died through the trickery of Helen at the hands of Menela\u00b8s and Odysseus?",
+        "A": [
+            "De\u00d4phobus",
+            "Palinurus",
+            "Paris",
+            "Sychaeus",
+            0
         ]
     },
     {
@@ -253,7 +283,7 @@
         "Q": "Who is the brother of Heracles?",
         "A": [
             "Eurystheus",
-            "Iola\u00fcs",
+            "Iola\u00b8s",
             "Iphicles",
             "Eurytus",
             2
@@ -266,6 +296,16 @@
             "Oedipus",
             "Ardiaeus",
             "Scylla",
+            2
+        ]
+    },
+    {
+        "Q": "On what island does the chest in which Dana\u00ce and Perseus are confined wash up?",
+        "A": [
+            "Crete",
+            "Lemnos",
+            "Seriphos",
+            "Cios",
             2
         ]
     },
@@ -377,6 +417,16 @@
             "Amphitryon",
             "Sthenelus",
             2
+        ]
+    },
+    {
+        "Q": "Who does Aeneas need to speak with in the Underworld?",
+        "A": [
+            "his father, Anchises",
+            "the Cumaean Sibyl",
+            "the prophet Tiresias",
+            "his lover Dido",
+            0
         ]
     },
     {
@@ -740,6 +790,16 @@
         ]
     },
     {
+        "Q": "What did Heracles do in return for the hospitality of the King Cyzicus?",
+        "A": [
+            "He killed the earth-born giants.",
+            "He gave him the girdle of Hippolyta.",
+            "He rescued his daughter from a sea monster.",
+            "He offered to marry one of his daughters and establish a heroic line.",
+            0
+        ]
+    },
+    {
         "Q": "How did Jason eventually die?",
         "A": [
             "He was killed by his son.",
@@ -773,7 +833,7 @@
         "Q": "What precisely does the Greek word sphinx mean?",
         "A": [
             "riddler",
-            "pestilence",
+            "",
             "monster",
             "strangler",
             3
@@ -837,6 +897,16 @@
             "Polybus and Merope",
             "Lycus and Dirce",
             2
+        ]
+    },
+    {
+        "Q": "How did Minos die?",
+        "A": [
+            "He was boiled by the daughters of Cocalus.",
+            "He was buried under a furious blow from Poseidon's trident.",
+            "He went sailing after Daedalus and drowned at sea.",
+            "There is no story of Minos' death.",
+            0
         ]
     },
     {
@@ -926,6 +996,16 @@
             "Maron",
             "Melanthius",
             "Demodocus",
+            3
+        ]
+    },
+    {
+        "Q": "Who is punished by having his liver eaten by vultures?",
+        "A": [
+            "Tantalus",
+            "Ixion",
+            "Orion",
+            "Tityus",
             3
         ]
     },
