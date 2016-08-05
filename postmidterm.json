@@ -490,7 +490,7 @@
         ]
     },
     {
-        "Q": "Who is Andromeda's fianc\u00e9?",
+        "Q": "Who is Andromeda's fiance?",
         "A": [
             "Cepheus",
             "Polydectes",
@@ -1426,6 +1426,216 @@
             "Mt.Olympus, where Zeus and Ares resides",
             "Corinth, where Oedipus resides",
             "Athens, where Theseus resides",
+            0
+        ]
+    },
+    {
+        "Q": "Tyro, King of Iocus's wife, has an affair with Poseidon. Who was their child?",
+        "A": [
+            "Pelias",
+            "Aerys",
+            "Aeson",
+            "Rhaegar",
+            0
+        ]
+    },
+    {
+        "Q": "Tyro, King of Iocus's wife, has an affair with Poseidon. Who was their child?",
+        "A": [
+            "Pelias",
+            "Aerys",
+            "Aeson",
+            "Rhaegar",
+            0
+        ]
+    },
+    {
+        "Q": "Who is Athamas' brother?",
+        "A": [
+            "Cretheus",
+            "Pelias",
+            "Ned",
+            "Laertes",
+            0
+        ]
+    },
+    {
+        "Q": "Polyduce fights who in the land of Bebryces",
+        "A": [
+            "Amycus",
+            "Rhaegar",
+            "Jason",
+            "Phineus",
+            0
+        ]
+    },
+    {
+        "Q": "What does Aphrodites do to the Lemnian women out of anger",
+        "A": [
+            "Made their husbands think they were ugly as f*ck",
+            "Made them infertile",
+            "Turned them into prostitutes",
+            "Removed their attraction towards men",
+            0
+        ]
+    },
+    {
+        "Q": "How does Hypsipyle save her father, king Thoas from the Lemnian women",
+        "A": [
+            "Hid him in the temple of Dionysus then sending him off in a chest",
+            "Hid him beneath the chambers of the Lemnian castle",
+            "Removed his phallus and dressed him in women's clothing",
+            "Switched clothes with him",
+            0
+        ]
+    },
+    {
+        "Q": "Where is the ",
+        "A": [
+            "Hid him in the temple of Dionysus then sending him off in a chest",
+            "Hid him beneath the chambers of the Lemnian castle",
+            "Removed his phallus and dressed him in women's clothing",
+            "Switched clothes with him",
+            0
+        ]
+    },
+    {
+        "Q": "What are the Argonauts to do if the released dove passes through the rocks",
+        "A": [
+            "Row through at full speed while the rocks are moving out",
+            "Climb the mountain instead of rowing",
+            "Swim through the rocks",
+            "Stop and wait for Heracles to come back",
+            0
+        ]
+    },
+    {
+        "Q": "Who is the father of Medea",
+        "A": [
+            "Aeetes",
+            "Helios",
+            "Laestrygonians",
+            "Charybdis",
+            0
+        ]
+    },
+    {
+        "Q": "Who is the father of Medea",
+        "A": [
+            "Aeetes",
+            "Helios",
+            "Laestrygonians",
+            "Charybdis",
+            0
+        ]
+    },
+    {
+        "Q": "Who cuts Pelias up?",
+        "A": [
+            "Jason",
+            "His own daughters",
+            "Aeson",
+            "Thetis",
+            0
+        ]
+    },
+    {
+        "Q": "Who cuts Pelias up?",
+        "A": [
+            "Jason",
+            "His own daughters",
+            "Aeson",
+            "Thetis",
+            0
+        ]
+    },
+    {
+        "Q": "Which of the following greek heroes is most dependent on others?",
+        "A": [
+            "Jason",
+            "Thetis",
+            "Perseus",
+            "Heracles",
+            0
+        ]
+    },
+    {
+        "Q": "What is Apollo's Roman counterpart?",
+        "A": [
+            "Apollo",
+            "Saturn",
+            "Mercury",
+            "Minerva",
+            0
+        ]
+    },
+    {
+        "Q": "Who is the companion of Odysseus that Aeneas bumps into in Sicily?",
+        "A": [
+            "Achaemenides",
+            "Diomedes",
+            "Menelaus",
+            "Patroclus",
+            0
+        ]
+    },
+    {
+        "Q": "Why did the Latins start a war against the Trojans?",
+        "A": [
+            "Turnus didn't end up marrying Lavinia",
+            "Aeneas took Lavinia as hostage from King Latinus",
+            "Aeneas killed king Latinus",
+            "Aeneas killed Lavinia",
+            0
+        ]
+    },
+    {
+        "Q": "Who finds the city of Alba Longa in Latium",
+        "A": [
+            "Ascanius",
+            "Aeneas",
+            "Latinus",
+            "Lavinia",
+            0
+        ]
+    },
+    {
+        "Q": "Who are the parents of of Romulus and Remus",
+        "A": [
+            "Mars and Rhea Silvia (Ilia)",
+            "Mars and Venus",
+            "Amulius and Rhea Silvia (Ilia)",
+            "Aeneas and Lavinia",
+            0
+        ]
+    },
+    {
+        "Q": "Who is the shepherd of Amulius that finds Romulus and Remus",
+        "A": [
+            "Faustulus",
+            "Rhea Silvia",
+            "Aegeon",
+            "Tiber",
+            0
+        ]
+    },
+    {
+        "Q": "Servius was credited for bringing what cult to Rome?",
+        "A": [
+            "Cult of Diana",
+            "Cult of Mars",
+            "Cult of Vulture",
+            "Cult of Pomona",
+            0
+        ]
+    },
+    {
+        "Q": "What does Omphale do to stop Faunus from laying with her",
+        "A": [
+            "Switches clothes with someone else",
+            "Prays to Jupiter for help",
+            "Stabs him with a poisoned dagger",
+            "Wears a chastity belt",
             0
         ]
     },
