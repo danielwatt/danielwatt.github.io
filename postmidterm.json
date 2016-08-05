@@ -1270,6 +1270,16 @@
         ]
     },
     {
+        "Q": "Who are the parents of Iphicles?",
+        "A": [
+            "Alcmene and Amphitryon",
+            "Thetis and Peleus",
+            "Aethra and Poseidon",
+            "Alcmene and Zeus",
+            0
+        ]
+    },
+    {
         "Q": "What centaur's actions led to the death of Heracles?",
         "A": [
             "Chiron",
