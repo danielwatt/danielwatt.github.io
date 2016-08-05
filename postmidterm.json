@@ -1040,6 +1040,166 @@
         ]
     },
     {
+        "Q": "What happened to young Perseus when he was discovered by his grandfather Acrisius?",
+        "A": [
+            "He was shut up in a bronze chamber beneath the palace",
+            "He was put out to sea in a chest",
+            "He was exposed on a mountainside",
+            "He was exiled from Argos",
+            1
+        ]
+    },
+    {
+        "Q": "Which god is the father of Theseus, according to some versions of the myth?",
+        "A": [
+            "Poseidon",
+            "Apollo",
+            "Zeus",
+            "Hephaestus",
+            0
+        ]
+    },
+    {
+        "Q": "Why did Heracles have to do his twelve labours?",
+        "A": [
+            "To atone for killing his wife and children",
+            "To atone for killing his music teacher",
+            "To atone for killing the two sacred serpents of Hera",
+            "To atone for killing his friend Iphitus",
+            0
+        ]
+    },
+    {
+        "Q": "What geographical feature was named after the daughter of King Athamas and Nephele",
+        "A": [
+            "The Hellespont",
+            "The Peloponnesus",
+            "The Chersonnesus",
+            "The Symplegades",
+            0
+        ]
+    },
+    {
+        "Q": "What was Cadmus told to do by the oracle at Delphi?",
+        "A": [
+            "Kill a snake",
+            "Follow a cow",
+            "Sacrifice to Zeus",
+            "Go to Hades",
+            1
+        ]
+    },
+    {
+        "Q": "Which heroic royal family had a particular problem with cannabalism?",
+        "A": [
+            "The Athenian royal family",
+            "The Theban royal family",
+            "The Mycenaean royal family",
+            "The Spartan royal family",
+            2
+        ]
+    },
+    {
+        "Q": "Whose ghost would not talk to dysseus in the Underworld",
+        "A": [
+            "Ajax",
+            "Achilles",
+            "Agamemnon",
+            "Anticlea",
+            0
+        ]
+    },
+    {
+        "Q": "Why did Perseus choose to kill Medusa and not one of her sister Gorgons?",
+        "A": [
+            "Medusa was the only one home when Perseus arrived at their lair",
+            "Medusa was the only one asleep when Perseus arrived at their lair",
+            "Medusa was the only one whose gaze turned men to stone",
+            "Medusa was the only one who was mortal",
+            3
+        ]
+    },
+    {
+        "Q": "The Minotaur was half human and half what?",
+        "A": [
+            "Stallion",
+            "Boar",
+            "Bull",
+            "Billy Goat",
+            2
+        ]
+    },
+    {
+        "Q": "Which one of the following creatures was NOT involved in one of the 12 labours of Heracles?",
+        "A": [
+            "Sow of Crommyon",
+            "Mares of Diomedes",
+            "Cerberus",
+            "Erymanthian Boar",
+            0
+        ]
+    },
+    {
+        "Q": "Who fulfilled the warning “beware of the man with one sandal”?",
+        "A": [
+            "Perseus",
+            "Jason",
+            "Theseus",
+            "Heracles",
+            0
+        ]
+    },
+    {
+        "Q": "Who was the mother of Aeneas?",
+        "A": [
+            "Juno",
+            "Venus",
+            "Minerva",
+            "Vesta",
+            1
+        ]
+    },
+    {
+        "Q": "Who helped Jason obtain the golden fleece?",
+        "A": [
+            "Ariadne",
+            "Alcmena",
+            "Comaetho",
+            "Medea",
+            3
+        ]
+    },
+    {
+        "Q": "Who guides Aeneas in his journey to the Underworld?",
+        "A": [
+            "The Sibyl",
+            "The Pythia",
+            "The spirit of his mother",
+            "The god Dionysus",
+            0
+        ]
+    },
+    {
+        "Q": "In what form did Zeus appear to Alcmene, wife of Amphitryon?",
+        "A": [
+            "A white bull",
+            "A swan",
+            "A golden rain",
+            "Amphitryon",
+            3
+        ]
+    },
+    {
+        "Q": "What people group did the early Romans first unite with, according to the Roman legend?",
+        "A": [
+            "The Sabines",
+            "The Etruscans",
+            "The Arcadians",
+            "The Celts",
+            0
+        ]
+    },
+    {
         "Q": "What centaur's actions led to the death of Heracles?",
         "A": [
             "Chiron",
