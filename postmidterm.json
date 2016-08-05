@@ -593,7 +593,7 @@
         "Q": "Which of the following kings was detained in Egypt?",
         "A": [
             "Agamemnon",
-            "Menela\u00b8s",
+            "Menelaus",
             "Idomeneus",
             "Diomedes",
             1
@@ -1356,6 +1356,26 @@
             "A golden whip",
             "A golden sattle",
             "A golden sandal",
+            0
+        ]
+    },
+    {
+        "Q": "Which archeologist discovered the site of Troy",
+        "A": [
+            "Heinrich Schliemann",
+            "Vernon Dursley",
+            "Sirius Black",
+            "Newt Gingrich",
+            0
+        ]
+    },
+    {
+        "Q": "What signs indicated that Theseus was old enough to complete his labours",
+        "A": [
+            "When he starts growing hair under his armpits",
+            "When he is able to retrieve the sandals and sword from under a rock",
+            "When he is able to walk without assistance",
+            "When he has mastered the sword that Aegeus gives him",
             0
         ]
     },
