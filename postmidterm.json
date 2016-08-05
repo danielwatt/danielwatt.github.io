@@ -403,7 +403,7 @@
         "Q": "Who was the husband of Alcmena?",
         "A": [
             "Electryon",
-            "Pterela\u00fcs",
+            "Pterelaus",
             "Amphitryon",
             "Sthenelus",
             2
@@ -753,7 +753,7 @@
         "Q": "Who was the husband of Laodamia and, though he was the first Greek hero killed in the war, returned briefly to spend one final night with her?",
         "A": [
             "Cycnus",
-            "Protesila\u00b8s",
+            "Protesilas",
             "Memnon",
             "Telephus",
             1
@@ -1376,6 +1376,56 @@
             "When he is able to retrieve the sandals and sword from under a rock",
             "When he is able to walk without assistance",
             "When he has mastered the sword that Aegeus gives him",
+            0
+        ]
+    },
+    {
+        "Q": "Who are Oedipus' kids that are supposed to alternate for the kingship in Thebes",
+        "A": [
+            "Eteocles and Polynices",
+            "Thyestes and Atreus",
+            "Agamemnon and Menelaus",
+            "Paris and Hector",
+            0
+        ]
+    },
+    {
+        "Q": "Who, in Athens, wanted Theseus dead",
+        "A": [
+            "Aegeus",
+            "Medea",
+            "Minos",
+            "Europa",
+            1
+        ]
+    },
+    {
+        "Q": "Why does Aegeus commit suicide off a cliff",
+        "A": [
+            "Theseus forgot to change the sails of the ship to white",
+            "Theseus died",
+            "He was under the spell of the Sirens",
+            "He accidently drank ambrosia",
+            0
+        ]
+    },
+    {
+        "Q": "On the way to catch the Erymanthian Boar, he was stopped by Pholus, who gives him wine. What happened when the wine was opened?",
+        "A": [
+            "Centaurs came and attacked Heracles",
+            "The jar contained wildfire and greenfire was spread throughout Mt.Erymanthus",
+            "The boar leaps and snatches the jar of wine",
+            "Heracles refused it since he has been sober for 4 years",
+            0
+        ]
+    },
+    {
+        "Q": "To where did Phrixus fly the golden-fleeced ram?",
+        "A": [
+            "Colchis, where King Aeetes resides",
+            "Mt.Olympus, where Zeus and Ares resides",
+            "Corinth, where Oedipus resides",
+            "Athens, where Theseus resides",
             0
         ]
     },
