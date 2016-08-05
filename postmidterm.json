@@ -1200,6 +1200,76 @@
         ]
     },
     {
+        "Q": "Who are the parents of Heracles?",
+        "A": [
+            "Zeus and Alcmene",
+            "Amphitryon and Alcmene",
+            "Anticlea and Laertes",
+            "Thetis and Peleus",
+            0
+        ]
+    },
+    {
+        "Q": "Who are the parents of Perseus?",
+        "A": [
+            "Danae and Zeus",
+            "Aethra and Poseidon",
+            "Amphitryon and Zeus",
+            "Thetis and Peleus",
+            0
+        ]
+    },
+    {
+        "Q": "Who are the parents of Theseus?",
+        "A": [
+            "Danae and Zeus",
+            "Aethra and Poseidon",
+            "Amphitryon and Zeus",
+            "Thetis and Peleus",
+            1
+        ]
+    },
+    {
+        "Q": "Who are the parents of Odysseus?",
+        "A": [
+            "Danae and Zeus",
+            "Anticlea and Laertes",
+            "Amphitryon and Zeus",
+            "Thetis and Peleus",
+            1
+        ]
+    },
+    {
+        "Q": "Who is the father of Jason?",
+        "A": [
+            "Aeson",
+            "Zeus",
+            "Poseidon",
+            "Electryon",
+            0
+        ]
+    },
+    {
+        "Q": "Who are the parents of Achilles?",
+        "A": [
+            "Thetis and Peleus",
+            "Danae and Zeus",
+            "Amphitryon and Zeus",
+            "Aethra and Poseidon",
+            0
+        ]
+    },
+    {
+        "Q": "Who are the parents of Paris?",
+        "A": [
+            "Hecuba and Priam",
+            "Zeus and Hecuba",
+            "Helen and Hecuba",
+            "Priam and Helen",
+            0
+        ]
+    },
+    {
         "Q": "What centaur's actions led to the death of Heracles?",
         "A": [
             "Chiron",
