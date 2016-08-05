@@ -1280,6 +1280,86 @@
         ]
     },
     {
+        "Q": "Who does Jason marry after Medea?",
+        "A": [
+            "Glauce",
+            "Scylla",
+            "Chryse",
+            "Pholus",
+            0
+        ]
+    },
+    {
+        "Q": "Who founded Argos",
+        "A": [
+            "Phoroneus",
+            "Cadmus",
+            "Demodocus",
+            "Iphitus",
+            0
+        ]
+    },
+    {
+        "Q": "Who believes that Perseus is cock-blocking him from getting with Danae",
+        "A": [
+            "Polydectes",
+            "Agamemnon",
+            "Zeus",
+            "Pelias",
+            0
+        ]
+    },
+    { 
+        "Q": "Why did Posseidon send a sea monster which captured Andromeda?",
+        "A": [
+            "Because Queen Cassiepea boasted that she was more beatuifu that the Nereids",
+            "Because Odysseus blinded Polyphemus",
+            "Because they refused to sacrifice their bull",
+            "Because they had connections to Atlantis",
+            0
+        ]
+    },
+    {
+        "Q": "What item do the nymphs NOT give Perseus",
+        "A": [
+            "Scimitar",
+            "Cap of Invisibility",
+            "Winged Sandals",
+            "Kibisis",
+            0
+        ]
+    },
+    {
+        "Q": "What did Perseus use to kill Acrisius",
+        "A": [
+            "A discus",
+            "A poisoned arrow",
+            "A scimitar",
+            "Medusa's head",
+            0
+        ]
+    },
+    {
+        "Q": "Why did King Proetus want to kill Bellerophon?",
+        "A": [
+            "Accused of seducing Stheneboea, King Proetus' wife, <i>but didn't</i>",
+            "Seduced Stheneboea, King Proetus' wife",
+            "Refused to give King Proetus his Pegasus",
+            "Stole Pegasus from King Proetus",
+            0
+        ]
+    },
+    {
+        "Q": "What does Athena give Bellerophon to help him ride Pegasus",
+        "A": [
+            "A golden bridle",
+            "A golden whip",
+            "A golden sattle",
+            "A golden sandal",
+            0
+        ]
+    },
+    {
         "Q": "What centaur's actions led to the death of Heracles?",
         "A": [
             "Chiron",
